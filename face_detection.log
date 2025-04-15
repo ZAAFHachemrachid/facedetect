@@ -1,0 +1,1105 @@
+2025-04-15 18:11:49,554 - FaceDetection - ERROR - Fatal: 'Session' object has no attribute 'models'
+2025-04-15 18:11:58,013 - FaceDetection - ERROR - Fatal: 'Session' object has no attribute 'models'
+2025-04-15 18:13:53,946 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:54,167 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:54,398 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:54,611 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:54,821 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:55,048 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:55,245 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:55,471 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:55,676 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:55,872 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:56,085 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:56,332 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:56,518 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:56,738 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:56,948 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:57,202 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:57,426 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:57,628 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:57,833 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:58,056 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:58,264 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:58,481 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:58,691 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:58,895 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:59,105 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:59,357 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:59,550 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:59,765 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:13:59,974 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:00,173 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:00,384 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:00,590 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:00,802 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:01,028 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:01,237 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:01,523 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:01,759 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:01,993 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:02,212 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:02,443 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:02,704 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:02,901 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:03,107 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:03,310 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:03,513 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:03,715 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:03,958 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:04,173 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:04,394 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:04,595 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:04,806 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:05,015 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:05,212 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:05,408 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:05,622 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:05,911 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:06,214 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:06,423 - FaceDetection - ERROR - Face Addition: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:06,423 - FaceDetection - WARNING - Error threshold reached for Face Addition
+2025-04-15 18:14:06,423 - FaceDetection - ERROR - Face Registration: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:06,497 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:06,879 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:06,879 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:07,171 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:07,487 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:07,487 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:07,750 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:08,063 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:08,367 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:08,630 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:08,938 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:09,216 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:09,216 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:09,516 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:09,812 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:10,118 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:10,384 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:10,678 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:10,941 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:11,221 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:11,490 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:11,770 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:12,055 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:12,056 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:12,358 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:12,636 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:12,934 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:13,212 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:13,492 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:13,803 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:14,098 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:14,098 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:14,372 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:14,372 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:14,640 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:14,640 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:14,919 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:14,920 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:15,221 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:15,493 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:15,493 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:15,774 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:16,051 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:16,334 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:16,612 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:16,892 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:17,157 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:17,455 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:17,738 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:18,023 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:18,313 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:18,548 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:18,855 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:19,175 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:19,453 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:19,718 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:19,989 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:20,265 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:20,535 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:20,850 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:21,153 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:21,445 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:21,711 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:21,986 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:22,262 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:22,541 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:22,822 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:23,153 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:23,418 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:23,764 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:24,050 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:24,337 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:24,612 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:24,886 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:25,159 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:25,440 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:25,727 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:26,014 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:26,291 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:26,648 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:26,942 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:27,325 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:27,593 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:27,909 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:28,243 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:28,525 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:28,800 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:29,073 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:29,074 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:29,355 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:29,647 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:29,942 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:30,214 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:30,497 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:30,775 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:30,775 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:31,053 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:31,053 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:31,321 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:31,322 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:31,589 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:31,589 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:31,875 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:31,875 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:32,155 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:32,155 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:32,426 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:32,427 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:32,694 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:32,694 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:32,988 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:32,988 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:33,276 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:33,276 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:33,554 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:33,844 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:33,844 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:34,121 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:34,418 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:34,687 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:34,992 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:35,267 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:35,537 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:35,814 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:36,087 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:36,389 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:36,653 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:36,970 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:37,303 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:37,698 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:38,020 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:38,392 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:38,701 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:39,005 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:39,326 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:39,612 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:39,613 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:39,911 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:40,247 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:40,574 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:40,871 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:41,180 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:41,467 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:41,766 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:42,045 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:42,334 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:42,619 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:42,909 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:43,222 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:43,561 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:43,878 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:44,169 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:44,474 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:44,749 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:45,061 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:45,393 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:45,393 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:45,740 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:14:45,740 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:46,049 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:46,354 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:46,681 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:46,994 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:47,292 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:47,552 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:47,814 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:48,074 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:48,334 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:14:48,594 - FaceDetection - ERROR - Tracker Creation: KCF tracker not available. Using basic tracking.
+2025-04-15 18:16:20,642 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:20,642 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:21,110 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:21,110 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:21,412 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:21,412 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:21,412 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:21,713 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:21,713 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:21,714 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:22,000 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:22,000 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:22,001 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:22,273 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:22,273 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:22,273 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:22,582 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:16:22,583 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:22,583 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:22,583 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:22,893 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:16:22,894 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:22,894 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:22,894 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:23,195 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:16:23,195 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:23,195 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:23,195 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:23,561 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:16:23,561 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:23,561 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:23,561 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:23,879 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:23,879 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:23,879 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:24,166 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:16:24,167 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:24,167 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:24,167 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:24,477 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:16:24,478 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:24,478 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:24,478 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:24,796 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:16:24,796 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:24,796 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:24,796 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:25,115 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:25,115 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:25,115 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:25,430 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:25,430 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:25,430 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:25,740 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:16:25,741 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:25,741 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:25,741 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:26,055 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:26,055 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:26,055 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:26,363 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:26,363 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:26,363 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:26,667 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:26,667 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:26,668 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:26,975 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:26,975 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:26,975 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:27,294 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:27,294 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:27,294 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:27,648 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:27,648 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:27,648 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:28,109 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:28,109 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:28,109 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:28,463 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:28,463 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:28,463 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:28,811 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:28,811 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:28,811 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:29,245 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:29,246 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:29,246 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:29,907 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:29,907 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:29,907 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:30,309 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:30,309 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:30,309 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:30,660 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:30,660 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:30,660 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:31,011 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:31,011 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:31,011 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:31,339 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:31,339 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:31,339 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:39,789 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:39,790 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:40,085 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:40,086 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:40,456 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:40,456 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:40,456 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:40,759 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:40,760 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:40,760 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:41,064 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:41,064 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:41,065 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:41,366 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:41,367 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:41,367 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:41,671 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:41,671 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:41,672 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:41,973 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:41,973 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:41,973 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:42,270 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:42,270 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:42,271 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:42,577 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:42,577 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:42,577 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:42,875 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:42,875 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:42,875 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:43,150 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:43,150 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:43,151 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:43,443 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:43,443 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:43,443 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:43,719 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:43,719 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:43,719 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:44,018 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:44,019 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:44,019 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:44,310 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:44,310 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:44,310 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:44,612 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:44,612 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:44,612 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:44,922 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:44,922 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:44,922 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:45,233 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:45,233 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:45,233 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:45,552 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:45,553 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:45,553 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:45,864 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:45,865 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:45,865 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:46,189 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:46,189 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:46,189 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:46,504 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:46,504 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:46,504 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:46,834 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:46,834 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:46,834 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:47,150 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:47,150 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:47,150 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:47,474 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:47,474 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:47,474 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:47,788 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:47,788 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:47,788 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:48,285 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:48,286 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:48,286 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:48,664 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:48,664 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:48,664 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:49,036 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:49,036 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:49,036 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:49,373 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:49,374 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:49,374 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:49,675 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:49,675 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:49,675 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:49,987 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:49,988 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:49,988 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:50,302 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:16:50,302 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:16:50,302 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:15,492 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:15,492 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:15,801 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:15,801 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:16,138 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:16,138 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:16,138 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:16,454 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:16,454 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:16,454 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:16,758 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:16,758 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:16,758 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:17,121 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:17,121 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:17,121 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:17,432 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:17,433 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:17,433 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:17,433 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:17,737 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:17,737 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:17,738 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:18,030 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:18,030 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:18,030 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:18,344 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:18,345 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:18,345 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:18,653 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:18,653 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:18,653 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:18,998 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:18,998 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:18,998 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:19,360 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:19,361 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:19,361 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:19,644 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:19,644 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:19,644 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:19,963 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:19,963 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:19,963 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:20,284 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:20,284 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:20,284 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:20,587 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:20,587 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:20,588 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:20,895 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:20,895 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:20,895 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:21,191 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:21,192 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:21,192 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:21,192 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:21,513 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:21,514 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:21,514 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:21,514 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:21,811 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:21,811 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:21,811 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:21,811 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:22,104 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:22,105 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:22,105 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:22,105 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:22,403 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:22,404 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:22,404 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:22,404 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:22,679 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:22,679 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:22,679 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:22,679 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:23,005 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:23,005 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:23,005 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:23,005 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:23,347 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:23,348 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:23,348 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:23,348 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:23,684 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:23,684 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:23,684 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:23,684 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:23,985 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:18:23,986 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:18:23,986 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:18:23,986 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:02,786 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:02,786 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:03,096 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:03,096 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:03,417 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:03,417 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:03,418 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:03,741 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:03,741 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:03,741 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:04,066 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:04,066 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:04,066 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:04,376 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:04,376 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:04,376 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:04,684 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:04,684 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:04,684 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:04,990 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:04,990 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:04,990 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:05,323 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:05,323 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:05,323 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:05,636 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:05,637 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:05,637 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:05,940 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:05,941 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:05,941 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:06,259 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:06,259 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:06,259 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:06,617 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:06,617 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:06,617 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:06,932 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:06,932 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:06,932 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:07,247 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:07,247 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:07,247 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:07,552 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:07,553 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:07,553 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:07,858 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:07,859 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:07,859 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:08,179 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:08,179 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:08,179 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:08,585 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:08,586 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:08,586 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:08,911 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:08,911 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:08,912 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:09,224 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:09,224 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:09,224 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:09,541 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:09,541 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:09,541 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:09,852 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:09,852 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:09,852 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:10,165 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:10,165 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:10,165 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:10,465 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:10,465 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:10,465 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:10,763 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:10,763 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:10,763 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:11,066 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:11,066 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:11,066 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:11,368 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:11,368 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:11,368 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:11,667 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:11,667 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:11,667 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:11,976 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:11,977 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:11,977 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:12,299 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:12,299 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:12,299 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:12,599 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:12,599 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:12,599 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:12,911 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:12,911 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:12,911 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:13,231 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:13,231 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:13,231 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:13,569 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:13,569 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:13,569 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:13,897 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:13,897 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:13,897 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:14,193 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:14,193 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:14,193 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:14,493 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:14,493 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:14,493 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:14,797 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:14,797 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:14,797 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:15,100 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:15,100 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:15,100 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:15,419 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:15,419 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:15,419 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:15,752 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:15,752 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:15,752 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:16,067 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:16,068 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:16,068 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:16,390 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:16,390 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:16,390 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:16,728 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:16,728 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:16,728 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:17,042 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:17,042 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:17,042 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:17,365 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:17,365 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:17,365 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:17,686 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:17,686 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:17,686 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:17,976 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:17,976 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:17,976 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:18,295 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:18,295 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:18,296 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:18,591 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:18,591 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:18,591 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:18,901 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:18,901 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:18,901 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:19,208 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:19,209 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:19,209 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:19,521 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:19,521 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:19,521 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:19,823 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:19,823 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:19,824 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:20,137 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:20,137 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:20,137 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:20,428 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:20,428 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:20,428 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:20,740 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:20,740 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:20,740 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:21,014 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:21,014 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:21,014 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:21,308 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:21,308 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:21,308 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:21,622 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:21,622 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:21,622 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:21,912 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:21,912 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:21,912 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:22,228 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:22,228 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:22,228 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:22,538 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:22,538 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:22,538 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:22,868 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:22,868 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:22,868 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:23,170 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:23,170 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:23,170 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:23,484 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:23,484 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:23,484 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:23,795 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:23,795 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:23,795 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:24,100 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:24,100 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:24,100 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:24,401 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:24,402 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:24,402 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:24,719 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:24,719 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:24,719 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:25,045 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:25,045 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:25,045 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:25,364 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:25,365 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:25,365 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:25,681 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:25,681 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:25,681 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:26,035 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:26,035 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:26,035 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:26,372 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:26,372 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:26,372 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:26,678 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:26,679 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:26,679 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:27,014 - FaceDetection - ERROR - Tracker Initialization: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:19:27,014 - FaceDetection - WARNING - Error threshold reached for Tracker Initialization
+2025-04-15 18:19:27,014 - FaceDetection - ERROR - Video Processing: module 'cv2' has no attribute 'TrackerKCF_create'
+2025-04-15 18:22:59,501 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:22:59,940 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:00,520 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:00,994 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:01,306 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:01,674 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:02,142 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:02,573 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:02,958 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:03,315 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:03,658 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:03,947 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:04,294 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:04,674 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:05,096 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:05,445 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:05,837 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:06,201 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:06,553 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:06,896 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:07,209 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:07,557 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:07,933 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:08,272 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:08,614 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:08,958 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:09,375 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:09,752 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:10,161 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:25,814 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:26,157 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:26,407 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:26,661 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:26,923 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:27,167 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:27,450 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:27,827 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:28,150 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:28,482 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:28,796 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:29,080 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:29,375 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:29,722 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:29,998 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:30,349 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:30,654 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:30,936 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:31,226 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:31,583 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:31,845 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:32,118 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:32,408 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:32,686 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:32,928 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:33,220 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:33,494 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:33,793 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:34,071 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:34,347 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:34,604 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:34,872 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:35,177 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:35,458 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:35,734 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:36,020 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:36,294 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:36,569 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:36,868 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:37,135 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:37,408 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:37,689 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:37,974 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:38,245 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:38,560 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:38,875 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:39,145 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:39,418 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:39,701 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:39,965 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:40,236 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:40,507 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:40,793 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:41,046 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:41,314 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:41,592 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:41,876 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:42,124 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:42,421 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:42,692 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:42,967 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:43,264 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:43,528 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:43,806 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:44,083 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:44,415 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:44,682 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:44,953 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:45,228 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:45,562 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:45,822 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:46,073 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:46,370 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:46,655 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:46,944 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:47,358 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:47,645 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:47,995 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:48,346 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:48,687 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:48,948 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:49,262 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:49,560 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:49,826 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:50,106 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:50,690 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:51,027 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:51,267 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:52,361 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:52,979 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:53,248 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:53,562 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:54,096 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:56,133 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:56,426 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:56,693 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:56,963 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:57,228 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:57,505 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:57,767 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:58,032 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:58,320 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:58,595 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:58,878 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:59,183 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:59,454 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:23:59,776 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:00,033 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:00,303 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:00,578 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:00,848 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:01,119 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:01,388 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:01,698 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:02,037 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:02,489 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:02,945 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:03,424 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:03,883 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:04,331 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:04,801 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:05,273 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:05,818 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:06,261 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:06,764 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:07,306 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:07,919 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:08,594 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:09,192 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:09,791 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:10,566 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:10,855 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:11,148 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:11,474 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:11,865 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:12,175 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:12,522 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:12,788 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:13,105 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:13,397 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:13,678 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:14,000 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:14,543 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:14,957 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:15,314 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:16,309 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:16,616 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:18,675 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:19,145 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:19,553 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:19,974 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:20,393 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:20,838 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:21,232 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:21,602 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:22,048 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:22,470 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:22,931 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:37,546 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:37,889 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:38,147 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:38,361 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:38,623 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:38,827 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:39,037 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:39,233 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:39,472 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:39,685 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:39,915 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:40,131 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:40,345 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:40,542 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:40,749 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:40,999 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:41,182 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:41,424 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:41,650 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:41,920 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:42,130 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:42,329 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:42,558 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:42,763 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:42,993 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:43,268 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:43,630 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:43,885 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:44,189 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:44,486 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:44,760 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:45,047 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:45,398 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:45,692 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:46,162 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:46,634 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:46,914 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:49,828 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:50,102 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:52,322 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:52,595 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:52,893 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:53,160 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:53,435 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:53,702 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:53,998 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:54,267 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:54,489 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:54,790 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:57,559 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:57,824 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:58,137 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:58,408 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:58,669 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:58,933 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:59,253 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:59,510 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:24:59,786 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:00,613 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:01,980 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:02,241 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:02,542 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:02,785 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:07,503 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:07,786 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:08,028 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:08,309 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:08,564 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:09,025 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:09,474 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:09,966 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:10,239 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:10,508 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:10,951 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:11,257 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:11,524 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:11,782 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:12,051 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:12,317 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:12,592 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:12,865 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:13,128 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:13,382 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:13,632 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:13,896 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:25:14,159 - FaceDetection - ERROR - Database Update: module 'numpy' has no attribute 'time'
+2025-04-15 18:27:16,582 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:16,683 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:16,785 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:16,887 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:16,988 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,090 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,191 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,292 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,393 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,494 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,595 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,696 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,797 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:17,898 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,000 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,101 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,202 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,303 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,405 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,506 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,607 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,707 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,808 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:18,909 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,010 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,111 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,213 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,314 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,416 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,517 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,618 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,720 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,821 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:19,922 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,023 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,125 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,226 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,327 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,428 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,530 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,632 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,733 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,835 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:20,936 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,038 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,139 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,240 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,341 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,443 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,545 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,646 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,747 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,849 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:21,950 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,051 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,153 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,255 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,355 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,457 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,558 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,660 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,761 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,863 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:22,964 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:23,065 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:23,166 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:23,267 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:23,369 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:27:23,470 - FaceDetection - ERROR - Video Processing: 'VideoFrame' object has no attribute 'frame_count'
+2025-04-15 18:38:46,657 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 18:40:13,521 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 18:42:16,002 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 18:42:56,980 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 18:43:46,268 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
