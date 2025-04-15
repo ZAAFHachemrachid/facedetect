@@ -33876,3 +33876,5 @@
 2025-04-15 20:54:05,674 - FaceDetection - ERROR - Face Detection: '>' not supported between instances of 'int' and 'tuple'
 2025-04-15 20:54:05,675 - FaceDetection - WARNING - Error threshold reached for Face Detection
 2025-04-15 20:54:05,676 - FaceDetection - ERROR - Frame Processing: '>' not supported between instances of 'int' and 'tuple'
+2025-04-15 20:57:50,407 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 21:00:37,083 - FaceDetection - ERROR - Frame Capture: Failed to grab frame

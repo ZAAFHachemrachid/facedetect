@@ -104,6 +104,7 @@ class VideoFrame:
     def capture_video(self):
         """Capture video frames continuously in a separate thread"""
         last_frame_time = time.time()
+        frame_count = 0
         
         while self.running:
             try:
@@ -119,6 +120,11 @@ class VideoFrame:
                 current_time = time.time()
                 capture_interval = current_time - last_frame_time
                 last_frame_time = current_time
+                
+                # Skip frames if we're falling behind (but ensure we process at least every 5th frame)
+                frame_count += 1
+                if self.frame_queue.qsize() >= self.frame_queue.maxsize - 1 and frame_count % 2 != 0:
+                    continue
                 
                 # Store current frame
                 with self.processing_lock:
@@ -185,6 +191,7 @@ class VideoFrame:
     def process_video(self):
         """Process frames for face detection in a separate thread"""
         detection_interval = config.detection_interval
+        last_process_fps = 0
         
         while self.running:
             try:
@@ -196,9 +203,20 @@ class VideoFrame:
                 
                 # Calculate processing delay - skip detection if we're falling behind
                 processing_delay = time.time() - frame_time
-                skip_detection = processing_delay > (self.frame_interval * 3)
+                skip_detection = processing_delay > (self.frame_interval * 2)
                 
-                display_frame = frame.copy()
+                # Create display frame with downsizing for performance if needed
+                if frame.shape[1] > config.video_width or frame.shape[0] > config.video_height:
+                    display_scale = min(
+                        config.video_width / frame.shape[1],
+                        config.video_height / frame.shape[0]
+                    )
+                    display_width = int(frame.shape[1] * display_scale)
+                    display_height = int(frame.shape[0] * display_scale)
+                    display_frame = cv2.resize(frame, (display_width, display_height))
+                else:
+                    display_frame = frame.copy()
+                
                 current_time = time.time()
                 
                 # Try tracking update first if enabled
@@ -267,12 +285,13 @@ class VideoFrame:
                             self.current_names = names
                     
                     # Store detection time
-                    self.detection_times.append(time.time() - detection_start)
+                    detection_time = time.time() - detection_start
+                    self.detection_times.append(detection_time)
                 
                 # Always draw current detections
                 with self.processing_lock:
-                    detections_to_draw = self.current_detections.copy()
-                    names_to_draw = self.current_names.copy()
+                    detections_to_draw = self.current_detections.copy() if self.current_detections else []
+                    names_to_draw = self.current_names.copy() if self.current_names else []
                 
                 if detections_to_draw:
                     display_frame = self.detector.draw_detections(
@@ -284,6 +303,12 @@ class VideoFrame:
                 # Update performance metrics
                 process_time = time.time() - frame_time
                 self.perf_monitor.update_frame_time(process_time)
+                
+                # Calculate and print FPS every second
+                current_fps = 1.0 / process_time if process_time > 0 else 0
+                if time.time() - last_process_fps > 1.0:
+                    last_process_fps = time.time()
+                    print(f"Processing FPS: {current_fps:.1f}")
                 
                 # Add to display queue, skip if full to avoid lag
                 try:
@@ -318,22 +343,35 @@ class VideoFrame:
     def update_display(self, frame):
         """Update video display with new frame"""
         try:
+            # Convert to RGB for display
             frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            
+            # Convert to PIL Image
             pil_image = Image.fromarray(frame_rgb)
+            
+            # Create PhotoImage
             photo = ImageTk.PhotoImage(image=pil_image)
+            
+            # Update label
             self.video_label.configure(image=photo)
-            self.video_label.image = photo
+            self.video_label.image = photo  # Keep reference to avoid garbage collection
         except Exception as e:
             self.error_recovery.log_error("Display Update", str(e))
 
     def reset_camera(self):
         """Reset camera connection"""
-        self.cap.release()
-        time.sleep(1)
-        self.cap = cv2.VideoCapture(0)
-        self.cap.set(cv2.CAP_PROP_FPS, config.target_fps)
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, config.video_width)
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, config.video_height)
+        try:
+            self.cap.release()
+            time.sleep(1)
+            self.cap = cv2.VideoCapture(0)
+            self.cap.set(cv2.CAP_PROP_FPS, config.target_fps)
+            self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, config.video_width)
+            self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, config.video_height)
+            self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)  # Reduce latency
+            print("Camera reset completed")
+        except Exception as e:
+            self.error_recovery.log_error("Camera Reset", str(e))
+            print(f"Camera reset failed: {e}")
 
     def get_current_frame(self):
         """Get copy of current frame"""
