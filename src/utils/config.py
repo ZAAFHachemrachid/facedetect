@@ -18,18 +18,19 @@ class Config:
         # Video capture settings
         self.video_width = 1000
         self.video_height = 600
-        self.frame_interval = 1.0 / 30.0  # Target 30 FPS (0.0333s per frame)
+        self.target_fps = 30
+        self.frame_interval = 1.0 / self.target_fps  # 33.33ms between frames
         
         # Detection settings
         self.detection_size = (320, 320)  # Size for face detection
         self.min_confidence = 0.6  # Minimum confidence for face recognition
-        self.detection_interval = 400  # Milliseconds between detections (2.5 FPS)
+        self.detection_interval = 1000  # Milliseconds between detections (1 FPS)
         
         # Performance settings
-        self.target_fps = 30
         self.performance_window = 30  # Window size for performance monitoring
         self.min_skip_frames = 1
         self.max_skip_frames = 5
+        self.frame_queue_size = 2  # Maximum frames to buffer
         
         # Error recovery settings
         self.error_threshold = 5

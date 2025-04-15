@@ -29,16 +29,6 @@ class FaceDetector:
         self.hog = cv2.HOGDescriptor()
         self.hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
-        # Try to enable OpenCL for Intel GPU acceleration
-        try:
-            cv2.ocl.setUseOpenCL(True)
-            if cv2.ocl.useOpenCL():
-                print("Using OpenCL acceleration")
-            else:
-                print("OpenCL is not available, using CPU")
-        except:
-            print("Failed to set OpenCL, using CPU")
-
     def detect_faces(self, frame):
         """Detect faces in frame using available methods"""
         with ErrorHandler(self.error_recovery, "Face Detection"):
@@ -113,53 +103,41 @@ class FaceDetector:
         if not recognized_names:
             recognized_names = ["Unknown"] * len(detections)
         
+        # Draw shadow effect for better visibility
         for i, detection in enumerate(detections):
             x, y, w, h = detection['bbox']
             name = recognized_names[i] if i < len(recognized_names) else "Unknown"
             
-            # Choose color based on recognition (BGR format)
+            # Draw black outline for better visibility
+            cv2.rectangle(display_frame, (x-1, y-1), (x + w+1, y + h+1), (0, 0, 0), 4)
+            
+            # Choose color based on recognition
             if name and name != "Unknown":
                 color = (0, 255, 0)  # Green for recognized faces
             else:
                 color = (0, 0, 255)  # Red for unknown faces
             
-            # Draw bounding box
+            # Draw colored box
             cv2.rectangle(display_frame, (x, y), (x + w, y + h), color, 2)
             
             # Prepare label
-            label_parts = []
-            label_parts.append(name)
+            label_parts = [name]
             if detection['confidence'] > 0:
-                label_parts.append(f"({detection['confidence']:.2f})")
-            if detection['gender'] is not None:
-                gender = 'M' if detection['gender'] == 1 else 'F'
-                label_parts.append(f"({gender})")
-            if detection['age'] is not None:
-                label_parts.append(f"Age: {int(detection['age'])}")
-            
-            label = " ".join(label_parts)
+                label_parts.append(f"{detection['confidence']:.2f}")
+            label = " - ".join(label_parts)
             
             # Draw label background
-            (label_w, label_h), _ = cv2.getTextSize(
-                label, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 2)
-            cv2.rectangle(
-                display_frame, 
-                (x, y - label_h - 10), 
-                (x + label_w, y), 
-                color, 
-                -1
-            )
+            (label_w, label_h), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_DUPLEX, 0.6, 1)
+            cv2.rectangle(display_frame, 
+                        (x, y - label_h - 10),
+                        (x + label_w + 10, y),
+                        color, -1)
             
             # Draw label text in white
-            cv2.putText(
-                display_frame,
-                label,
-                (x, y - 5),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                0.5,
-                (255, 255, 255),
-                2
-            )
+            cv2.putText(display_frame, label,
+                    (x + 5, y - 5),
+                    cv2.FONT_HERSHEY_DUPLEX,
+                    0.6, (255, 255, 255), 1)
         
         return display_frame
 
