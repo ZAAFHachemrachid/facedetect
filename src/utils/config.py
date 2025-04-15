@@ -21,10 +21,27 @@ class Config:
         self.target_fps = 30
         self.frame_interval = 1.0 / self.target_fps  # 33.33ms between frames
         
+        # Camera settings
+        self.camera_source = 0  # Default webcam
+        self.use_ip_camera = False  # Whether to use IP camera
+        self.ip_camera_url = "http://192.168.1.100:8080/video"  # IP Webcam URL
+        
         # Detection settings
         self.detection_size = (320, 320)  # Size for face detection
         self.min_confidence = 0.6  # Minimum confidence for face recognition
-        self.detection_interval = 1000  # Milliseconds between detections (1 FPS)
+        self.detection_interval = 5  # Detection interval in frames
+        
+        # Video processing settings
+        self.processing_width = 800  # Width for processing frames
+        self.min_face_size = 30  # Minimum face size in pixels
+        self.max_face_size = 300  # Maximum face size in pixels
+        self.enable_tracking = True  # Enable face tracking
+        self.optimize_for_distance = True  # Optimize detection for varying distances
+        
+        # Feature detection settings
+        self.detect_eyes = True  # Enable eye detection
+        self.detect_mouth = True  # Enable mouth detection
+        self.feature_color = "green"  # Feature highlight color
         
         # Performance settings
         self.performance_window = 30  # Window size for performance monitoring
@@ -67,12 +84,41 @@ class Config:
             print(f"Error saving custom settings: {e}")
             return False
 
+    def get_camera_url(self):
+        """Get the camera URL based on settings"""
+        if self.use_ip_camera:
+            return self.ip_camera_url
+        return self.camera_source
+
+    def set_ip_camera(self, url):
+        """Set IP camera URL and enable it"""
+        self.ip_camera_url = url
+        self.use_ip_camera = True
+        self.save_custom_settings({
+            'ip_camera_url': url,
+            'use_ip_camera': True
+        })
+
+    def use_webcam(self):
+        """Switch to webcam"""
+        self.use_ip_camera = False
+        self.save_custom_settings({
+            'use_ip_camera': False
+        })
+
     def get_detector_settings(self):
         """Get settings specific to face detection"""
         return {
             'detection_size': self.detection_size,
             'min_confidence': self.min_confidence,
-            'detection_interval': self.detection_interval
+            'detection_interval': self.detection_interval,
+            'min_face_size': self.min_face_size,
+            'max_face_size': self.max_face_size,
+            'enable_tracking': self.enable_tracking,
+            'optimize_for_distance': self.optimize_for_distance,
+            'detect_eyes': self.detect_eyes,
+            'detect_mouth': self.detect_mouth,
+            'feature_color': self.feature_color
         }
 
     def get_performance_settings(self):
@@ -94,3 +140,16 @@ class Config:
 
 # Global configuration instance
 config = Config()
+
+# Default configuration - can be overridden in config.json
+default_config = {
+    'processing_width': 800,
+    'min_face_size': 30,
+    'max_face_size': 300,
+    'enable_tracking': True,
+    'optimize_for_distance': True,
+    'detection_interval': 5,
+    'detect_eyes': True,
+    'detect_mouth': True,
+    'feature_color': "green"
+}

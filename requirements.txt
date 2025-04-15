@@ -9,3 +9,4 @@ joblib>=1.2.0
 scikit-image>=0.18.2
 onnxruntime>=1.8.0  # Required by insightface for CPU execution
 typing-extensions>=3.7.4  # Required by some dependencies
+requests>=2.28.0  # Required for IP camera support

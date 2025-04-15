@@ -45,18 +45,57 @@ class FaceDetector:
             return self._detect_with_hog(frame), False
 
     def _process_insightface_results(self, faces):
-        """Process InsightFace detection results"""
+        """Process InsightFace detection results with size filtering and optimizations"""
         processed_faces = []
         for face in faces:
             bbox = face.bbox.astype(int)
             x, y, x2, y2 = bbox
-            processed_faces.append({
+            w, h = x2 - x, y2 - y
+            
+            # Filter faces by size
+            if not (config.min_face_size <= w <= config.max_face_size and
+                    config.min_face_size <= h <= config.max_face_size):
+                continue
+            
+            # Create face object with tracking info
+            face_data = {
                 'bbox': (int(x), int(y), int(x2 - x), int(y2 - y)),
                 'embedding': face.embedding if hasattr(face, 'embedding') else None,
                 'confidence': float(face.det_score),
                 'gender': int(face.gender) if hasattr(face, 'gender') else None,
-                'age': float(face.age) if hasattr(face, 'age') else None
-            })
+                'age': float(face.age) if hasattr(face, 'age') else None,
+                'tracking_id': None,  # Will be set when tracking is initialized
+                'last_seen': time.time()
+            }
+            
+            # Extract facial features if available
+            facial_features = {}
+            if hasattr(face, 'kps') and face.kps is not None:
+                landmarks = face.kps.astype(int)
+                facial_features['eyes'] = [
+                    (landmarks[0][0]-15, landmarks[0][1]-10, 30, 20),  # right eye
+                    (landmarks[1][0]-15, landmarks[1][1]-10, 30, 20)   # left eye
+                ]
+                mouth_right = landmarks[3]
+                mouth_left = landmarks[4]
+                mouth_center_x = (mouth_right[0] + mouth_left[0]) // 2
+                mouth_center_y = (mouth_right[1] + mouth_left[1]) // 2
+                mouth_width = int(abs(mouth_right[0] - mouth_left[0]) * 1.5)
+                mouth_height = int(mouth_width * 0.4)
+                facial_features['mouth'] = (
+                    mouth_center_x - mouth_width//2,
+                    mouth_center_y - mouth_height//2,
+                    mouth_width,
+                    mouth_height
+                )
+            face_data['facial_features'] = facial_features
+            
+            # Early exit if high confidence match and not optimizing for distance
+            if face_data['confidence'] > 0.85 and not config.optimize_for_distance:
+                return [face_data]
+            
+            processed_faces.append(face_data)
+            
         return processed_faces
 
     def _detect_with_hog(self, frame):
@@ -97,7 +136,7 @@ class FaceDetector:
             return processed_boxes
 
     def draw_detections(self, frame, detections, recognized_names=None):
-        """Draw detection boxes and labels on frame"""
+        """Draw detection boxes, labels, and facial features on frame"""
         display_frame = frame.copy()
         
         if not recognized_names:
@@ -120,6 +159,27 @@ class FaceDetector:
             # Draw colored box
             cv2.rectangle(display_frame, (x, y), (x + w, y + h), color, 2)
             
+            # Draw facial features if available
+            if 'facial_features' in detection:
+                features = detection['facial_features']
+                
+                # Draw eyes
+                if self.detect_eyes and 'eyes' in features:
+                    for eye in features['eyes']:
+                        ex, ey, ew, eh = eye
+                        cv2.rectangle(display_frame, (ex, ey),
+                                    (ex+ew, ey+eh), self.feature_color, 2)
+                        cv2.putText(display_frame, "Eye", (ex, ey-5),
+                                  cv2.FONT_HERSHEY_SIMPLEX, 0.5, self.feature_color, 1)
+                
+                # Draw mouth
+                if self.detect_mouth and 'mouth' in features:
+                    mx, my, mw, mh = features['mouth']
+                    cv2.rectangle(display_frame, (mx, my),
+                                (mx+mw, my+mh), self.feature_color, 2)
+                    cv2.putText(display_frame, "Mouth", (mx, my-5),
+                              cv2.FONT_HERSHEY_SIMPLEX, 0.5, self.feature_color, 1)
+            
             # Prepare label
             label_parts = [name]
             if detection['confidence'] > 0:
@@ -128,7 +188,7 @@ class FaceDetector:
             
             # Draw label background
             (label_w, label_h), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_DUPLEX, 0.6, 1)
-            cv2.rectangle(display_frame, 
+            cv2.rectangle(display_frame,
                         (x, y - label_h - 10),
                         (x + label_w + 10, y),
                         color, -1)
@@ -152,3 +212,46 @@ class FaceDetector:
                 embeddings.append(detection['embedding'])
         
         return embeddings if embeddings else None
+        
+    def init_tracking(self, frame, detection):
+        """Initialize tracking for a detected face"""
+        if not config.enable_tracking:
+            return None
+            
+        try:
+            bbox = detection['bbox']
+            tracker = cv2.TrackerKCF_create()
+            success = tracker.init(frame, bbox)
+            if success:
+                return tracker
+        except Exception as e:
+            self.error_recovery.log_error("Tracker Init", str(e))
+        return None
+        
+    def update_tracking(self, frame, tracker, last_bbox):
+        """Update tracking for a face"""
+        if not config.enable_tracking:
+            return None, False
+            
+        try:
+            success, bbox = tracker.update(frame)
+            if success:
+                return bbox, True
+        except Exception as e:
+            self.error_recovery.log_error("Tracker Update", str(e))
+        return last_bbox, False
+
+    def set_feature_detection(self, detect_eyes=True, detect_mouth=True):
+        """Configure which facial features to detect"""
+        self.detect_eyes = detect_eyes
+        self.detect_mouth = detect_mouth
+    
+    def set_feature_color(self, color):
+        """Set the color for facial feature highlighting"""
+        color_map = {
+            "green": (0, 255, 0),
+            "red": (0, 0, 255),
+            "blue": (255, 0, 0),
+            "yellow": (0, 255, 255)
+        }
+        self.feature_color = color_map.get(color, (0, 255, 0))

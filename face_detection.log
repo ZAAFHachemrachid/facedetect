@@ -1103,3 +1103,94 @@
 2025-04-15 18:42:16,002 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
 2025-04-15 18:42:56,980 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
 2025-04-15 18:43:46,268 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:02:35,156 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:02:35,169 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:02:35,169 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:02:35,170 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:02:35,170 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:02:35,425 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:02:37,525 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:02:38,005 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:02:41,530 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:02:41,852 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:02:44,437 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:02:44,729 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:02:52,905 - FaceDetection - ERROR - Frame Update: can't invoke "grab" command: application has been destroyed
+2025-04-15 19:03:13,058 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:03:16,139 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:03:16,139 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:03:16,139 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:03:16,139 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:03:16,886 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:03:19,544 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:03:20,294 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:03:21,544 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:03:21,714 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:03:22,305 - FaceDetection - ERROR - Frame Update: can't invoke "grab" command: application has been destroyed
+2025-04-15 19:03:46,820 - FaceDetection - ERROR - Camera Init: Failed to open camera
+2025-04-15 19:03:48,464 - FaceDetection - ERROR - UI Creation: can't invoke "grab" command: application has been destroyed
+2025-04-15 19:06:45,292 - FaceDetection - ERROR - Camera Init: Failed to initialize camera
+2025-04-15 19:06:46,256 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:46,992 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:48,427 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:49,708 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:50,819 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:51,825 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:52,542 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:54,410 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:55,587 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:56,071 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:06:56,360 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:08:33,978 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:08:33,978 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:08:33,978 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:08:33,978 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:08:33,978 - FaceDetection - ERROR - Frame Capture: Failed to grab frame
+2025-04-15 19:23:05,988 - FaceDetection - ERROR - Frame Update: name 'np' is not defined
+2025-04-15 19:37:31,225 - FaceDetection - ERROR - InsightFace Detection: name 'time' is not defined
+2025-04-15 19:37:33,695 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:33,696 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:33,798 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:33,798 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:36,041 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:36,041 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:37:36,041 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:36,077 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:36,077 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:37:36,077 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:36,241 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:36,241 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:37:36,241 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:38,622 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:38,622 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:37:38,622 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:39,761 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:39,761 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:37:39,761 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:39,932 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:39,932 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:37:39,932 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:39,960 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:39,960 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:37:39,960 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:37:39,991 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:37:39,991 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:37:39,991 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:38:16,808 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:38:16,808 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:38:16,809 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:38:37,057 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:38:37,057 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:38:37,057 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:38:37,119 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:38:37,119 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:38:37,120 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:38:37,157 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:38:37,157 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:38:37,157 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:38:37,190 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:38:37,190 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:38:37,191 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:38:37,224 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:38:37,225 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:38:37,225 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.

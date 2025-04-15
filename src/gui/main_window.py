@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-import threading
 
 from ..utils.config import config
 from ..utils.error_handler import ErrorRecovery
@@ -28,18 +27,17 @@ class MainWindow:
         self.loading_label.pack(expand=True)
         
         # Initialize components in background
-        self.init_thread = threading.Thread(target=self._init_components)
-        self.init_thread.daemon = True
-        self.init_thread.start()
+        self.initialization_failed = False
+        self.error_message = None
         
-        # Check initialization status periodically
-        self.root.after(100, self._check_init)
+        # Initialize components
+        self.setup_components()
         
         # Set up window close handler
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
-    def _init_components(self):
-        """Initialize components in background thread"""
+    def setup_components(self):
+        """Initialize and set up application components"""
         try:
             # Create error recovery system
             self.error_recovery = ErrorRecovery(
@@ -62,36 +60,6 @@ class MainWindow:
             )
             self.tracker = ObjectTracker(self.error_recovery)
             
-            # Signal successful initialization
-            self.init_success = True
-            
-        except Exception as e:
-            self.init_error = str(e)
-            self.init_success = False
-
-    def _check_init(self):
-        """Check initialization status and create UI when ready"""
-        if hasattr(self, 'init_success'):
-            # Remove loading label
-            self.loading_label.destroy()
-            
-            if self.init_success:
-                # Create main UI
-                self._create_ui()
-            else:
-                # Show error and close
-                messagebox.showerror(
-                    "Initialization Error",
-                    f"Failed to initialize application: {self.init_error}"
-                )
-                self.root.destroy()
-        else:
-            # Check again after 100ms
-            self.root.after(100, self._check_init)
-
-    def _create_ui(self):
-        """Create main UI components"""
-        try:
             # Create main container
             main_frame = ttk.Frame(self.root)
             main_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
@@ -114,18 +82,30 @@ class MainWindow:
                 self.error_recovery
             )
             
+            # Remove loading label
+            self.loading_label.destroy()
+            
         except Exception as e:
-            self.error_recovery.log_error("UI Creation", str(e))
+            self.initialization_failed = True
+            self.error_message = str(e)
+            self.error_recovery.log_error("Initialization", str(e))
+
+    def check_initialization(self):
+        """Check if initialization completed successfully"""
+        if self.initialization_failed:
             messagebox.showerror(
-                "UI Error",
-                f"Failed to create user interface: {str(e)}"
+                "Initialization Error",
+                f"Failed to initialize application:\n{self.error_message}"
             )
             self.root.destroy()
+            return False
+        return True
 
     def run(self):
         """Start the application"""
         try:
-            self.root.mainloop()
+            if self.check_initialization():
+                self.root.mainloop()
         except Exception as e:
             self.error_recovery.log_error("Application", str(e))
             raise
@@ -146,3 +126,10 @@ class MainWindow:
         # Close database connection
         if hasattr(self, 'db_manager'):
             self.db_manager.session.close()
+
+    def show_error(self, title, message):
+        """Show error message"""
+        try:
+            messagebox.showerror(title, message)
+        except:
+            print(f"Error: {title} - {message}")
