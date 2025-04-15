@@ -24,6 +24,10 @@ class FaceDetector:
         self.min_face_size = 15  # Reduced for greater distance detection
         self.max_face_size = 500  # Increased for wider range
         self.detection_upscale = True  # Enable upscaling for small faces
+        
+        # Multi-face optimization
+        self.max_faces = 10  # Allow detection of multiple faces
+        self.detection_batch_size = 4  # Process faces in batches for better performance
 
     def initialize_detectors(self):
         """Initialize both InsightFace and HOG detectors"""
@@ -32,6 +36,13 @@ class FaceDetector:
             self.face_app = FaceAnalysis(providers=['CPUExecutionProvider'])
             # Increase detection size for better distance performance
             self.face_app.prepare(ctx_id=0, det_size=config.detection_size_tuple, det_thresh=0.35)
+            
+            # Configure for multi-face detection
+            if hasattr(self.face_app, 'det_model'):
+                # Set max number of faces to detect
+                if hasattr(self.face_app.det_model, 'max_num'):
+                    self.face_app.det_model.max_num = self.max_faces
+            
             print("InsightFace initialized successfully")
         except Exception as e:
             self.error_recovery.log_error("InsightFace Init", str(e))
@@ -60,28 +71,18 @@ class FaceDetector:
         elif small_frame.shape[2] == 1:
             small_frame = cv2.cvtColor(small_frame, cv2.COLOR_GRAY2RGB)
 
-        # Enhance image for better distance detection
-        if self.detection_upscale:
-            # Convert to LAB color space for better contrast enhancement
-            lab = cv2.cvtColor(small_frame, cv2.COLOR_RGB2LAB)
-            l_channel = lab[:, :, 0]
+        # Performance optimization - skip additional processing if the frame is not for detection
+        if not self.detection_upscale:
+            return small_frame, scale
 
-            # Apply CLAHE (Contrast Limited Adaptive Histogram Equalization)
-            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
-            enhanced_l = clahe.apply(l_channel)
-
-            # Replace enhanced luminance channel
-            lab[:, :, 0] = enhanced_l
-            small_frame = cv2.cvtColor(lab, cv2.COLOR_LAB2RGB)
-
-            # Apply subtle sharpening
-            kernel = np.array([[-1, -1, -1],
-                              [-1, 9, -1],
-                              [-1, -1, -1]]) / 9.0
-            small_frame = cv2.filter2D(small_frame, -1, kernel)
-
-            # Apply denoising to reduce noise while preserving edges
-            small_frame = cv2.fastNlMeansDenoisingColored(small_frame, None, 10, 10, 7, 21)
+        # Simplified enhancement for better performance
+        # Just convert to LAB and apply CLAHE to L channel
+        lab = cv2.cvtColor(small_frame, cv2.COLOR_RGB2LAB)
+        l_channel = lab[:, :, 0]
+        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+        enhanced_l = clahe.apply(l_channel)
+        lab[:, :, 0] = enhanced_l
+        small_frame = cv2.cvtColor(lab, cv2.COLOR_LAB2RGB)
 
         return small_frame, scale
 
@@ -106,7 +107,9 @@ class FaceDetector:
     def _process_insightface_results(self, faces, scale):
         """Process InsightFace detection results with optimizations for distance detection"""
         processed_faces = []
-        for face in faces:
+        
+        # Process all detected faces, up to max limit
+        for face in faces[:self.max_faces]:
             bbox = face.bbox.astype(int)
             x, y, x2, y2 = bbox
             w, h = x2 - x, y2 - y
@@ -145,6 +148,7 @@ class FaceDetector:
             }
             
             processed_faces.append(face_data)
+            
         return processed_faces
 
     def _detect_with_hog(self, frame, scale):
@@ -403,10 +407,17 @@ class FaceDetector:
         if not self.use_insightface:
             return None
         
+        # Process embeddings in batches for better performance
         embeddings = []
-        for detection in detections:
-            if detection['embedding'] is not None:
-                embeddings.append(detection['embedding'])
+        batch_size = min(self.detection_batch_size, len(detections))
+        
+        # Process faces in batches
+        for i in range(0, len(detections), batch_size):
+            batch = detections[i:i+batch_size]
+            
+            for detection in batch:
+                if detection['embedding'] is not None:
+                    embeddings.append(detection['embedding'])
         
         return embeddings if embeddings else None
         
@@ -423,3 +434,11 @@ class FaceDetector:
     def toggle_mouth_tracking(self, enabled):
         """Toggle mouth tracking on/off"""
         self.track_mouth = enabled
+
+    def enhance_frame_preprocessing(self, frame):
+        """Fast version of frame preprocessing for video display"""
+        # Simple brightness and contrast adjustment for better visibility
+        alpha = 1.1  # Contrast control
+        beta = 5     # Brightness control
+        enhanced_frame = cv2.convertScaleAbs(frame, alpha=alpha, beta=beta)
+        return enhanced_frame

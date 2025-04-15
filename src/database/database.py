@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 import time
 import json
-from .models import Base, FaceData
+from .models import Base, FaceData, create_session
 
 class DatabaseManager:
     def __init__(self, base_dir):
@@ -11,13 +11,8 @@ class DatabaseManager:
         self.data_dir = os.path.join(base_dir, "face_data")
         os.makedirs(self.data_dir, exist_ok=True)
         
-        db_path = os.path.join(self.data_dir, "face_database.db")
-        self.engine = create_engine(f'sqlite:///{db_path}')
-        Base.metadata.create_all(self.engine)
-        
-        # Create session factory
-        Session = sessionmaker(bind=self.engine)
-        self.session = Session()
+        # Use the create_session function instead of creating our own
+        self.session = create_session(base_dir)
 
     def add_face(self, name, embedding, confidence, metadata=None):
         """Add a new face to the database"""

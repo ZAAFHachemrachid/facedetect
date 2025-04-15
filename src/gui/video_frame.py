@@ -27,7 +27,8 @@ class VideoFrame:
         self.cap.set(cv2.CAP_PROP_FPS, config.target_fps)
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, config.video_width)
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, config.video_height)
-        self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)  # Reduce latency
+        self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 2)  # Increased buffer size
+        self.cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))  # Set MJPG format for better performance
         
         # Processing state
         self.running = True
@@ -41,12 +42,15 @@ class VideoFrame:
         self.current_detections = []
         self.current_names = []
         
-        # Create frame queues with increased capacity for better buffering
-        self.frame_queue = queue.Queue(maxsize=5)
-        self.display_queue = queue.Queue(maxsize=2)
+        # Create enhanced frame queues with increased capacity
+        self.frame_queue = queue.Queue(maxsize=8)
+        self.detection_queue = queue.Queue(maxsize=3)  # For detection worker
+        self.recognition_queue = queue.Queue(maxsize=3)  # For recognition worker
+        self.display_queue = queue.Queue(maxsize=3)
         
-        # Add processing lock to prevent race conditions
+        # Add processing locks to prevent race conditions
         self.processing_lock = threading.Lock()
+        self.detection_lock = threading.Lock()
         
         # Add tracking support
         self.enable_tracking = config.enable_tracking if hasattr(config, 'enable_tracking') else True
@@ -69,9 +73,20 @@ class VideoFrame:
         self.capture_thread.daemon = True
         self.capture_thread.start()
         
+        # Create multiple processing threads for better parallelization
         self.process_thread = threading.Thread(target=self.process_video)
         self.process_thread.daemon = True
         self.process_thread.start()
+        
+        # Dedicated detection thread
+        self.detection_thread = threading.Thread(target=self.detection_worker)
+        self.detection_thread.daemon = True
+        self.detection_thread.start()
+        
+        # Dedicated recognition thread
+        self.recognition_thread = threading.Thread(target=self.recognition_worker)
+        self.recognition_thread.daemon = True
+        self.recognition_thread.start()
         
         self.display_thread = threading.Thread(target=self.display_video)
         self.display_thread.daemon = True
@@ -121,9 +136,9 @@ class VideoFrame:
                 capture_interval = current_time - last_frame_time
                 last_frame_time = current_time
                 
-                # Skip frames if we're falling behind (but ensure we process at least every 5th frame)
+                # Skip frames more aggressively if we're falling behind
                 frame_count += 1
-                if self.frame_queue.qsize() >= self.frame_queue.maxsize - 1 and frame_count % 2 != 0:
+                if self.frame_queue.qsize() >= 1 and frame_count % config.min_skip_frames != 0:
                     continue
                 
                 # Store current frame
@@ -136,8 +151,10 @@ class VideoFrame:
                 except queue.Full:
                     pass  # Skip frame if queue is full to prevent backlog
                 
-                # Slight delay to control capture rate - aim for target fps
-                sleep_time = max(0, self.frame_interval - (time.time() - current_time) - 0.001)
+                # Control capture rate with adaptive sleep
+                process_time = time.time() - current_time
+                target_interval = 1.0 / config.target_fps
+                sleep_time = max(0, target_interval - process_time - 0.001)
                 if sleep_time > 0:
                     time.sleep(sleep_time)
                 
@@ -189,139 +206,226 @@ class VideoFrame:
             return None
 
     def process_video(self):
-        """Process frames for face detection in a separate thread"""
-        detection_interval = config.detection_interval
-        last_process_fps = 0
-        
+        """Process frames for detection in a separate thread"""
         while self.running:
             try:
                 # Get frame from queue with timeout to avoid blocking forever
                 try:
-                    frame, frame_time = self.frame_queue.get(timeout=0.5)
+                    frame, frame_time = self.frame_queue.get(timeout=0.1)  # Reduced timeout
                 except queue.Empty:
                     continue
                 
-                # Calculate processing delay - skip detection if we're falling behind
-                processing_delay = time.time() - frame_time
-                skip_detection = processing_delay > (self.frame_interval * 2)
+                # Simple brightness and contrast enhancement
+                frame = cv2.convertScaleAbs(frame, alpha=1.1, beta=5)
                 
-                # Create display frame with downsizing for performance if needed
-                if frame.shape[1] > config.video_width or frame.shape[0] > config.video_height:
-                    display_scale = min(
-                        config.video_width / frame.shape[1],
-                        config.video_height / frame.shape[0]
-                    )
-                    display_width = int(frame.shape[1] * display_scale)
-                    display_height = int(frame.shape[0] * display_scale)
-                    display_frame = cv2.resize(frame, (display_width, display_height))
-                else:
-                    display_frame = frame.copy()
+                # Determine if we should detect on this frame
+                should_detect = self.frame_count % config.detection_interval == 0 or not self.tracker_initialized
                 
-                current_time = time.time()
-                
-                # Try tracking update first if enabled
-                tracking_success = False
-                if self.enable_tracking and self.tracker_initialized and hasattr(self, 'tracker') and self.tracker:
+                if should_detect:
+                    # Send to detection queue instead of processing here
                     try:
-                        tracking_success, tracking_box = self.tracker.update(frame)
-                        if tracking_success:
-                            x, y, w, h = [int(v) for v in tracking_box]
-                            # Draw tracking box with different color
-                            cv2.rectangle(display_frame, (x, y), (x+w, y+h), (0, 255, 255), 2)
-                            cv2.putText(display_frame, "Tracking", (x, y-10),
-                                      cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
-                            self.tracked_box = (x, y, w, h)
-                    except Exception as e:
-                        self.error_recovery.log_error("Tracking", str(e))
-                        tracking_success = False
+                        self.detection_queue.put_nowait((frame, frame_time))
+                    except queue.Full:
+                        pass  # Skip if queue is full
                 
-                # Run detection periodically or when tracking fails
-                should_detect = ((self.frame_count % detection_interval == 0) or 
-                                not tracking_success or 
-                                not self.tracker_initialized)
-                
-                if should_detect and not skip_detection:
-                    detection_start = time.time()
+                # Update tracking if initialized and not detecting
+                elif self.enable_tracking and self.tracker_initialized:
+                    tracking_success, bbox = self.tracker.update(frame)
                     
-                    # Detect and recognize faces
-                    detections, used_insightface = self.detector.detect_faces(frame)
-                    
-                    if detections:
-                        # Detect facial features (eyes and mouth)
-                        detections = self.detector.detect_facial_features(frame, detections)
+                    if tracking_success:
+                        # Create a face detection from tracking result
+                        tracked_detection = {
+                            'bbox': bbox,
+                            'confidence': 0.8,
+                            'tracked': True
+                        }
                         
-                        if used_insightface:
-                            embeddings = self.detector.get_face_embeddings(frame, detections)
-                            
-                            # Measure recognition time
-                            recog_start = time.time()
-                            if embeddings:
-                                recognized = self.recognizer.recognize_faces(embeddings)
-                                names = [name for name, _ in recognized]
-                            else:
-                                names = ["Unknown"] * len(detections)
-                            
-                            # Store recognition time
-                            self.recognition_times.append(time.time() - recog_start)
-                        else:
-                            names = ["Unknown"] * len(detections)
-                        
-                        # Update tracker with best detection if tracking enabled
-                        if self.enable_tracking and detections:
-                            # Find highest confidence detection
-                            best_detection = max(detections, key=lambda x: x['confidence'])
-                            
-                            # Create tracker
-                            self.tracker = self.create_tracker()
-                            if self.tracker:
-                                # Initialize with bounding box
-                                x, y, w, h = best_detection['bbox']
-                                self.tracker.init(frame, (x, y, w, h))
-                                self.tracker_initialized = True
-                        
-                        # Update current detections with lock
+                        # Update with just the tracked face
                         with self.processing_lock:
-                            self.current_detections = detections
-                            self.current_names = names
-                    
-                    # Store detection time
-                    detection_time = time.time() - detection_start
-                    self.detection_times.append(detection_time)
+                            self.current_detections = [tracked_detection]
+                    else:
+                        # Reset tracking if it fails
+                        self.tracker_initialized = False
                 
-                # Always draw current detections
+                # Draw face detections on display frame
+                display_frame = frame.copy()
+                
+                # Draw detected/tracked faces
                 with self.processing_lock:
-                    detections_to_draw = self.current_detections.copy() if self.current_detections else []
-                    names_to_draw = self.current_names.copy() if self.current_names else []
+                    detections_to_draw = self.current_detections.copy()
+                    names_to_draw = self.current_names.copy()
                 
-                if detections_to_draw:
-                    display_frame = self.detector.draw_detections(
-                        display_frame, 
-                        detections_to_draw,
-                        names_to_draw
-                    )
+                # Draw all detections
+                for i, detection in enumerate(detections_to_draw):
+                    bbox = detection['bbox']
+                    confidence = detection.get('confidence', 0)
+                    
+                    # Choose color based on recognition status
+                    color = (0, 255, 0)  # Default green
+                    name = "Unknown"
+                    
+                    # Show name if available from recognition
+                    if i < len(names_to_draw):
+                        name, name_confidence = names_to_draw[i]
+                        if name != "Unknown":
+                            # Recognized face - green
+                            label = f"{name} ({name_confidence:.2f})"
+                            color = (0, 255, 0)
+                        else:
+                            # Unknown face - red
+                            label = f"Unknown ({confidence:.2f})"
+                            color = (0, 0, 255)
+                    else:
+                        # Detection without recognition data
+                        label = f"Face ({confidence:.2f})"
+                        color = (255, 0, 0)  # Blue
+                    
+                    # Draw bounding box and name
+                    x, y, w, h = bbox
+                    cv2.rectangle(display_frame, (x, y), (x+w, y+h), color, 2)
+                    
+                    # Improved text visibility with background
+                    text_size, _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.6, 2)
+                    cv2.rectangle(display_frame, (x, y-text_size[1]-10), (x+text_size[0]+10, y), color, -1)
+                    cv2.putText(display_frame, label, (x+5, y-5), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
                 
-                # Update performance metrics
+                # Add timestamp and FPS
+                timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+                cv2.putText(display_frame, timestamp, (10, display_frame.shape[0] - 10),
+                          cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+                
+                fps = self.perf_monitor.get_average_fps()
+                cv2.putText(display_frame, f"FPS: {fps:.1f}", (10, 30),
+                          cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+                
+                face_count = len(detections_to_draw)
+                cv2.putText(display_frame, f"Faces: {face_count}", (10, 60),
+                          cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+                
+                # Send to display queue
+                try:
+                    self.display_queue.put_nowait((display_frame, frame_time))
+                except queue.Full:
+                    pass  # Skip frame if display queue is full
+                
+                self.frame_count += 1
+                
+                # Update processing FPS metrics
                 process_time = time.time() - frame_time
                 self.perf_monitor.update_frame_time(process_time)
                 
-                # Calculate and print FPS every second
-                current_fps = 1.0 / process_time if process_time > 0 else 0
-                if time.time() - last_process_fps > 1.0:
-                    last_process_fps = time.time()
-                    print(f"Processing FPS: {current_fps:.1f}")
-                
-                # Add to display queue, skip if full to avoid lag
-                try:
-                    self.display_queue.put_nowait(display_frame)
-                except queue.Full:
-                    pass
-                
-                # Increment frame counter
-                self.frame_count += 1
-                
             except Exception as e:
-                self.error_recovery.log_error("Frame Processing", str(e))
+                self.error_recovery.log_error("Video Processing", str(e))
+
+    def detection_worker(self):
+        """Dedicated thread for face detection"""
+        while self.running:
+            try:
+                # Get frame from detection queue
+                try:
+                    frame, frame_time = self.detection_queue.get(timeout=0.1)
+                except queue.Empty:
+                    continue
+                
+                with Timer("Face Detection"):
+                    detection_start = time.time()
+                    
+                    # Perform face detection
+                    detections, detector_used = self.detector.detect_faces(frame)
+                    
+                    # Update performance metrics
+                    self.detection_times.append(time.time() - detection_start)
+                    if len(self.detection_times) > 10:
+                        self.detection_times.pop(0)
+                
+                # Update face detection info
+                with self.processing_lock:
+                    self.current_detections = detections
+                
+                # Only try recognition with InsightFace successful detections
+                if detector_used and detections:
+                    # Update tracker with best detection
+                    if self.enable_tracking and detections and self.tracker:
+                        # Find face with highest confidence for tracking
+                        best_detection = max(detections, key=lambda x: x.get('confidence', 0))
+                        bbox = best_detection['bbox']
+                        
+                        # Reinitialize tracker
+                        self.tracker.init_tracker(frame, bbox)
+                        self.tracker_initialized = True
+                    
+                    # Send to recognition queue
+                    try:
+                        self.recognition_queue.put_nowait((frame, detections))
+                    except queue.Full:
+                        pass  # Skip if queue is full
+            
+            except Exception as e:
+                self.error_recovery.log_error("Face Detection Worker", str(e))
                 time.sleep(0.01)
+    
+    def recognition_worker(self):
+        """Dedicated thread for face recognition"""
+        while self.running:
+            try:
+                # Get frame and detections from recognition queue
+                try:
+                    frame, detections = self.recognition_queue.get(timeout=0.1)
+                except queue.Empty:
+                    continue
+                
+                with Timer("Face Recognition"):
+                    recognition_start = time.time()
+                    
+                    # Extract embeddings
+                    embeddings = self.detector.get_face_embeddings(frame, detections)
+                    if embeddings:
+                        # Recognize faces
+                        names = self.recognizer.recognize_faces(embeddings)
+                        
+                        # Update recognized names
+                        with self.processing_lock:
+                            self.current_names = names
+                    
+                    # Update performance metrics
+                    self.recognition_times.append(time.time() - recognition_start)
+                    if len(self.recognition_times) > 10:
+                        self.recognition_times.pop(0)
+            
+            except Exception as e:
+                self.error_recovery.log_error("Face Recognition Worker", str(e))
+                time.sleep(0.01)
+
+    def enhance_image_quality(self, frame):
+        """Enhance image brightness and contrast for better visibility"""
+        try:
+            # Convert to LAB color space
+            lab = cv2.cvtColor(frame, cv2.COLOR_BGR2LAB)
+            l_channel, a_channel, b_channel = cv2.split(lab)
+            
+            # Apply CLAHE to L-channel
+            clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+            cl = clahe.apply(l_channel)
+            
+            # Increase brightness
+            brightness_factor = 30  # Adjust as needed
+            cl = cv2.add(cl, brightness_factor)
+            
+            # Merge channels back
+            enhanced_lab = cv2.merge((cl, a_channel, b_channel))
+            
+            # Convert back to BGR
+            enhanced_frame = cv2.cvtColor(enhanced_lab, cv2.COLOR_LAB2BGR)
+            
+            # Increase contrast
+            alpha = 1.2  # Contrast control (1.0-3.0)
+            beta = 10    # Brightness control (0-100)
+            enhanced_frame = cv2.convertScaleAbs(enhanced_frame, alpha=alpha, beta=beta)
+            
+            return enhanced_frame
+        except Exception as e:
+            self.error_recovery.log_error("Image Enhancement", str(e))
+            return frame
 
     def display_video(self):
         """Display processed frames in a separate thread"""
@@ -329,7 +433,7 @@ class VideoFrame:
             try:
                 # Get processed frame from queue with timeout
                 try:
-                    display_frame = self.display_queue.get(timeout=0.5)
+                    display_frame, frame_time = self.display_queue.get(timeout=0.5)
                 except queue.Empty:
                     continue
                 
@@ -367,7 +471,8 @@ class VideoFrame:
             self.cap.set(cv2.CAP_PROP_FPS, config.target_fps)
             self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, config.video_width)
             self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, config.video_height)
-            self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)  # Reduce latency
+            self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 2)  # Increased buffer size
+            self.cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))  # Set MJPG format for better performance
             print("Camera reset completed")
         except Exception as e:
             self.error_recovery.log_error("Camera Reset", str(e))

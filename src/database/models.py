@@ -23,3 +23,25 @@ class FaceData(Base):
     def set_embedding_array(self, arr):
         """Convert numpy array to binary for storage"""
         self.embedding = arr.astype(np.float32).tobytes()
+
+def create_session(base_dir=None):
+    """Create and return a database session
+    
+    Args:
+        base_dir (str, optional): Base directory for database. If None, uses current directory.
+        
+    Returns:
+        sqlalchemy.orm.Session: Database session
+    """
+    if base_dir is None:
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    data_dir = os.path.join(base_dir, "face_data")
+    os.makedirs(data_dir, exist_ok=True)
+    
+    db_path = os.path.join(data_dir, "face_database.db")
+    engine = create_engine(f'sqlite:///{db_path}')
+    Base.metadata.create_all(engine)
+    
+    Session = sessionmaker(bind=engine)
+    return Session()

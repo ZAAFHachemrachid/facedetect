@@ -16,23 +16,29 @@ class Config:
         self.old_db_path = os.path.join(self.data_dir, "face_database.pkl")
         
         # Video capture settings
-        self.video_width = 640  # Reduced for better performance
+        self.video_width = 640  # Standard resolution
         self.video_height = 480  # Standard 4:3 resolution
-        self.target_fps = 24    # Reduced for better stability
+        self.target_fps = 24    # Reduced for better processing
         self.frame_interval = 1.0 / self.target_fps
         
         # Detection settings
         self.detection_size = 320  # Size for face detection (single integer value)
-        self.detection_size_tuple = (512, 512)  # Increased size for better feature detection
+        self.detection_size_tuple = (320, 320)  # Reduced for better performance
         self.min_confidence = 0.6  # Minimum confidence for face recognition
-        self.detection_interval = 3  # Frames between detections (balanced for performance)
+        self.detection_interval = 15  # Increased interval between detections for better performance
         self.enable_tracking = True  # Enable object tracking between detections
+        self.max_faces = 10  # Maximum number of faces to detect and track
         
         # Performance settings
-        self.performance_window = 15  # Reduced window size for more responsive metrics
-        self.min_skip_frames = 1
-        self.max_skip_frames = 3     # Reduced max skip for smoother video
-        self.frame_queue_size = 3    # Balanced queue size
+        self.performance_window = 10  # Reduced window size for more responsive metrics
+        self.min_skip_frames = 1  # Skip at least 1 frame to reduce processing load
+        self.max_skip_frames = 3  # Skip more frames for smoother performance
+        self.frame_queue_size = 2  # Reduced queue size to minimize latency
+        
+        # Threading settings
+        self.use_multithreading = True  # Enable multithreaded processing
+        self.num_detection_threads = 1  # Number of detection worker threads
+        self.num_recognition_threads = 1  # Number of recognition worker threads
         
         # Error recovery settings
         self.error_threshold = 5
