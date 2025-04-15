@@ -42,6 +42,10 @@ class PerformanceMonitor:
             return 0.0
         avg_frame_time = sum(self.frame_times) / len(self.frame_times)
         return 1.0 / avg_frame_time if avg_frame_time > 0 else 0.0
+        
+    def get_average_fps(self):
+        """Get average FPS over the window period"""
+        return self.get_fps()
 
     def get_stats(self):
         """Get current performance statistics"""

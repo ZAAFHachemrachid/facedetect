@@ -16,21 +16,23 @@ class Config:
         self.old_db_path = os.path.join(self.data_dir, "face_database.pkl")
         
         # Video capture settings
-        self.video_width = 1000
-        self.video_height = 600
-        self.target_fps = 30
-        self.frame_interval = 1.0 / self.target_fps  # 33.33ms between frames
+        self.video_width = 640  # Reduced for better performance
+        self.video_height = 480  # Standard 4:3 resolution
+        self.target_fps = 24    # Reduced for better stability
+        self.frame_interval = 1.0 / self.target_fps
         
         # Detection settings
-        self.detection_size = (320, 320)  # Size for face detection
+        self.detection_size = 320  # Size for face detection (single integer value)
+        self.detection_size_tuple = (512, 512)  # Increased size for better feature detection
         self.min_confidence = 0.6  # Minimum confidence for face recognition
-        self.detection_interval = 1000  # Milliseconds between detections (1 FPS)
+        self.detection_interval = 3  # Frames between detections (balanced for performance)
+        self.enable_tracking = True  # Enable object tracking between detections
         
         # Performance settings
-        self.performance_window = 30  # Window size for performance monitoring
+        self.performance_window = 15  # Reduced window size for more responsive metrics
         self.min_skip_frames = 1
-        self.max_skip_frames = 5
-        self.frame_queue_size = 2  # Maximum frames to buffer
+        self.max_skip_frames = 3     # Reduced max skip for smoother video
+        self.frame_queue_size = 3    # Balanced queue size
         
         # Error recovery settings
         self.error_threshold = 5

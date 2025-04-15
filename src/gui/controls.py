@@ -54,6 +54,56 @@ class ControlPanel:
         )
         self.view_faces_button.pack(fill=tk.X, padx=5, pady=5)
         
+        # Settings frame
+        settings_frame = ttk.LabelFrame(self.frame, text="Settings")
+        settings_frame.pack(fill=tk.X, padx=5, pady=5)
+        
+        # Eye tracking toggle
+        self.eye_tracking_var = tk.BooleanVar(value=True)
+        self.eye_tracking_check = ttk.Checkbutton(
+            settings_frame,
+            text="Track Eyes",
+            variable=self.eye_tracking_var,
+            command=self.toggle_eye_tracking
+        )
+        self.eye_tracking_check.pack(fill=tk.X, padx=5, pady=5)
+        
+        # Mouth tracking toggle
+        self.mouth_tracking_var = tk.BooleanVar(value=True)
+        self.mouth_tracking_check = ttk.Checkbutton(
+            settings_frame,
+            text="Track Mouth",
+            variable=self.mouth_tracking_var,
+            command=self.toggle_mouth_tracking
+        )
+        self.mouth_tracking_check.pack(fill=tk.X, padx=5, pady=5)
+        
+        # Feature color selection
+        color_frame = ttk.Frame(settings_frame)
+        color_frame.pack(fill=tk.X, padx=5, pady=5)
+        
+        ttk.Label(color_frame, text="Feature Color:").pack(side=tk.LEFT, padx=5)
+        
+        self.color_var = tk.StringVar(value="yellow")
+        color_options = ["Green", "Red", "Blue", "Yellow"]
+        self.color_dropdown = ttk.Combobox(
+            color_frame,
+            textvariable=self.color_var,
+            values=color_options,
+            width=10,
+            state="readonly"
+        )
+        self.color_dropdown.pack(side=tk.LEFT, padx=5)
+        self.color_dropdown.bind("<<ComboboxSelected>>", self.change_feature_color)
+        
+        # Advanced settings button
+        self.advanced_button = ttk.Button(
+            settings_frame,
+            text="Facial Feature Settings",
+            command=self.open_feature_settings
+        )
+        self.advanced_button.pack(fill=tk.X, padx=5, pady=5)
+        
         # Face list
         faces_frame = ttk.LabelFrame(self.frame, text="Saved Faces")
         faces_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
@@ -87,11 +137,48 @@ class ControlPanel:
                 messagebox.showerror("Error", "No face detected in current frame")
                 return
             
-            # Get face with highest confidence
-            best_face = max(detections, key=lambda x: x['confidence'])
+            # Handle face selection when multiple faces are detected
+            selected_face = None
+            if len(detections) > 1:
+                # Get current face names from video frame
+                current_names = self.video_frame.current_names
+                
+                # Add numbers to unknown faces for selection
+                face_labels = []
+                unknown_count = 0
+                for i, name in enumerate(current_names):
+                    if name == "Unknown":
+                        unknown_count += 1
+                        face_labels.append(f"Unknown {unknown_count}")
+                    else:
+                        face_labels.append(name)
+                
+                # Create a selection dialog
+                selection = simpledialog.askstring(
+                    "Select Face", 
+                    f"Multiple faces detected. Enter the number of the face to register (1-{len(detections)}):",
+                    initialvalue="1"
+                )
+                
+                if not selection:
+                    return
+                
+                try:
+                    idx = int(selection) - 1
+                    if 0 <= idx < len(detections):
+                        selected_face = detections[idx]
+                    else:
+                        messagebox.showerror("Error", "Invalid selection")
+                        return
+                except ValueError:
+                    messagebox.showerror("Error", "Please enter a valid number")
+                    return
+            else:
+                # Only one face, use it directly
+                selected_face = detections[0]
             
             # Check for embedding
-            if best_face['embedding'] is None:
+            if selected_face['embedding'] is None:
                 messagebox.showerror("Error", "Failed to extract face features")
                 return
             
@@ -102,12 +189,12 @@ class ControlPanel:
             
             # Create metadata
             metadata = {
-                'gender': best_face['gender'],
-                'age': best_face['age']
+                'gender': selected_face['gender'],
+                'age': selected_face['age']
             }
             
             # Add to database
-            if self.recognizer.add_face(name, best_face['embedding'], json.dumps(metadata)):
+            if self.recognizer.add_face(name, selected_face['embedding'], json.dumps(metadata)):
                 self.update_face_list()
                 messagebox.showinfo("Success", f"Face registered for {name}")
             else:
@@ -160,3 +247,85 @@ class ControlPanel:
     def set_status(self, text):
         """Update status label"""
         self.status_label.config(text=text)
+
+    def toggle_eye_tracking(self):
+        """Toggle eye tracking on/off"""
+        is_enabled = self.eye_tracking_var.get()
+        self.detector.track_eyes = is_enabled
+        status = "enabled" if is_enabled else "disabled"
+        self.set_status(f"Eye tracking {status}")
+        
+    def toggle_mouth_tracking(self):
+        """Toggle mouth tracking on/off"""
+        is_enabled = self.mouth_tracking_var.get()
+        self.detector.toggle_mouth_tracking(is_enabled)
+        status = "enabled" if is_enabled else "disabled"
+        self.set_status(f"Mouth tracking {status}")
+        
+    def change_feature_color(self, event=None):
+        """Change the color used for facial feature highlighting"""
+        color = self.color_var.get().lower()
+        self.detector.set_feature_color(color)
+        self.set_status(f"Feature color set to {color}")
+        
+    def open_feature_settings(self):
+        """Open advanced facial feature detection settings"""
+        settings_window = tk.Toplevel(self.parent)
+        settings_window.title("Facial Feature Settings")
+        settings_window.geometry("350x250")
+        settings_window.resizable(False, False)
+        
+        # Create a frame for the settings
+        frame = ttk.Frame(settings_window, padding="10")
+        frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Feature toggles
+        ttk.Label(frame, text="Facial Features to Detect:", font=("", 10, "bold")).grid(
+            row=0, column=0, columnspan=2, sticky=tk.W, pady=(0, 10))
+        
+        # Eyes settings
+        eye_var = tk.BooleanVar(value=self.detector.track_eyes)
+        ttk.Checkbutton(
+            frame,
+            text="Track Eyes",
+            variable=eye_var,
+            command=lambda: self.detector.__setattr__("track_eyes", eye_var.get())
+        ).grid(row=1, column=0, sticky=tk.W, pady=2)
+        
+        # Mouth settings  
+        mouth_var = tk.BooleanVar(value=self.detector.track_mouth)
+        ttk.Checkbutton(
+            frame,
+            text="Track Mouth",
+            variable=mouth_var,
+            command=lambda: self.detector.toggle_mouth_tracking(mouth_var.get())
+        ).grid(row=2, column=0, sticky=tk.W, pady=2)
+        
+        # Color selection
+        ttk.Label(frame, text="Color Options:", font=("", 10, "bold")).grid(
+            row=3, column=0, columnspan=2, sticky=tk.W, pady=(15, 5))
+        
+        # Color radio buttons
+        color_var = tk.StringVar(value=self.color_var.get())
+        colors = [("Green", "green"), ("Red", "red"), ("Blue", "blue"), ("Yellow", "yellow")]
+        
+        for i, (text, value) in enumerate(colors):
+            ttk.Radiobutton(
+                frame,
+                text=text,
+                value=value,
+                variable=color_var,
+                command=lambda: self.detector.set_feature_color(color_var.get())
+            ).grid(row=4+i, column=0, sticky=tk.W, pady=2)
+        
+        # Apply button
+        ttk.Button(
+            frame,
+            text="Apply & Close",
+            command=lambda: [
+                self.eye_tracking_var.set(eye_var.get()),
+                self.mouth_tracking_var.set(mouth_var.get()),
+                self.color_var.set(color_var.get()),
+                settings_window.destroy()
+            ]
+        ).grid(row=8, column=0, columnspan=2, sticky=tk.E, pady=(15, 0))
