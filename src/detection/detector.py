@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import insightface
 from insightface.app import FaceAnalysis
+import time
 from ..utils.config import config
 from ..utils.error_handler import ErrorHandler
 from ..utils.performance import Timer
@@ -11,14 +12,32 @@ class FaceDetector:
         """Initialize face detection system with fallback options"""
         self.error_recovery = error_recovery
         self.use_insightface = True
+        self.detect_eyes = True
+        self.detect_mouth = True
+        self.feature_color = (0, 255, 0)  # Default green
         self.initialize_detectors()
 
     def initialize_detectors(self):
         """Initialize both InsightFace and HOG detectors"""
         # Initialize InsightFace
         try:
-            self.face_app = FaceAnalysis(providers=['CPUExecutionProvider'])
-            self.face_app.prepare(ctx_id=0, det_size=config.detection_size)
+            print("Initializing InsightFace...")
+            self.face_app = FaceAnalysis(
+                name='buffalo_sc',  # Use more accurate model
+                providers=['CPUExecutionProvider'],
+                allowed_modules=['detection', 'recognition']  # Ensure all modules are loaded
+            )
+            print("Created FaceAnalysis instance")
+            
+            # Prepare with larger detection size for better accuracy
+            self.face_app.prepare(ctx_id=0, det_size=(640, 640))
+            
+            # Test face detection
+            test_img = np.zeros((640, 640, 3), dtype=np.uint8)
+            test_result = self.face_app.get(test_img)
+            print("InsightFace test successful")
+            
+            self.use_insightface = True
             print("InsightFace initialized successfully")
         except Exception as e:
             self.error_recovery.log_error("InsightFace Init", str(e))
@@ -35,9 +54,36 @@ class FaceDetector:
             if self.use_insightface:
                 try:
                     with Timer("InsightFace Detection"):
-                        faces = self.face_app.get(frame)
-                    return self._process_insightface_results(faces), True
+                        # Debug frame info
+                        # print(f"Input frame shape: {frame.shape}, dtype: {frame.dtype}")
+                        
+                        # Ensure frame is not empty
+                        if frame is None or frame.size == 0:
+                            print("Empty frame received")
+                            return [], False
+                        
+                        # InsightFace expects RGB format in uint8
+                        if len(frame.shape) == 3 and frame.shape[2] == 3:
+                            # Convert to uint8 if float
+                            if frame.dtype != np.uint8:
+                                frame = (frame * 255).astype(np.uint8)
+                            
+                            # Convert BGR to RGB
+                            rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                            print("Running face detection...")
+                            faces = self.face_app.get(rgb_frame)
+                            print(f"InsightFace detected {len(faces)} faces")
+                            for i, face in enumerate(faces):
+                                print(f"Face {i}: score={face.det_score}, bbox={face.bbox}")
+                            
+                            processed = self._process_insightface_results(faces)
+                            print(f"Processed {len(processed)} faces after filtering")
+                            return processed, True
+                        else:
+                            print(f"Unexpected frame format: {frame.shape}")
+                            return [], False
                 except Exception as e:
+                    print(f"Error in face detection: {str(e)}")
                     self.error_recovery.log_error("InsightFace Detection", str(e))
                     self.use_insightface = False
 
@@ -47,14 +93,20 @@ class FaceDetector:
     def _process_insightface_results(self, faces):
         """Process InsightFace detection results with size filtering and optimizations"""
         processed_faces = []
+        min_size = 30  # Minimum face size (pixels)
+        
         for face in faces:
             bbox = face.bbox.astype(int)
             x, y, x2, y2 = bbox
             w, h = x2 - x, y2 - y
             
-            # Filter faces by size
-            if not (config.min_face_size <= w <= config.max_face_size and
-                    config.min_face_size <= h <= config.max_face_size):
+            print(f"Processing face: size={w}x{h}, score={face.det_score}")
+            print(f"Has embedding: {hasattr(face, 'embedding')}")
+            print(f"Has landmarks: {hasattr(face, 'kps')}")
+            
+            # Only filter out very small faces
+            if w < min_size or h < min_size:
+                print(f"Face too small: {w}x{h} < {min_size}")
                 continue
             
             # Create face object with tracking info
@@ -65,30 +117,36 @@ class FaceDetector:
                 'gender': int(face.gender) if hasattr(face, 'gender') else None,
                 'age': float(face.age) if hasattr(face, 'age') else None,
                 'tracking_id': None,  # Will be set when tracking is initialized
-                'last_seen': time.time()
+                'last_seen': time.time(),
+                'facial_features': {}  # Initialize facial features dict
             }
             
             # Extract facial features if available
-            facial_features = {}
             if hasattr(face, 'kps') and face.kps is not None:
                 landmarks = face.kps.astype(int)
-                facial_features['eyes'] = [
+                print(f"Processing landmarks: {landmarks.shape}")
+                
+                # Process eyes
+                face_data['facial_features']['eyes'] = [
                     (landmarks[0][0]-15, landmarks[0][1]-10, 30, 20),  # right eye
                     (landmarks[1][0]-15, landmarks[1][1]-10, 30, 20)   # left eye
                 ]
+                print("Added eye features")
+                
+                # Process mouth
                 mouth_right = landmarks[3]
                 mouth_left = landmarks[4]
                 mouth_center_x = (mouth_right[0] + mouth_left[0]) // 2
                 mouth_center_y = (mouth_right[1] + mouth_left[1]) // 2
                 mouth_width = int(abs(mouth_right[0] - mouth_left[0]) * 1.5)
                 mouth_height = int(mouth_width * 0.4)
-                facial_features['mouth'] = (
+                face_data['facial_features']['mouth'] = (
                     mouth_center_x - mouth_width//2,
                     mouth_center_y - mouth_height//2,
                     mouth_width,
                     mouth_height
                 )
-            face_data['facial_features'] = facial_features
+                print("Added mouth features")
             
             # Early exit if high confidence match and not optimizing for distance
             if face_data['confidence'] > 0.85 and not config.optimize_for_distance:

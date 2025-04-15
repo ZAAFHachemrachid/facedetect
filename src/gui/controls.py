@@ -71,14 +71,22 @@ class ControlPanel:
     def register_face(self):
         """Handle face registration"""
         try:
+            print("Starting face registration...")
+            
             # Get current frame
             frame = self.video_frame.get_current_frame()
             if frame is None:
                 messagebox.showerror("Error", "No video frame available")
                 return
             
+            print("Processing frame for registration...")
+            # Preprocess frame
+            small_frame, scale = self.video_frame.preprocess_frame(frame)
+            
             # Detect faces
-            detections, used_insightface = self.detector.detect_faces(frame)
+            detections, used_insightface = self.detector.detect_faces(small_frame)
+            print(f"Face detection result: {len(detections)} faces, used_insightface: {used_insightface}")
+            
             if not used_insightface:
                 messagebox.showerror("Error", "InsightFace is required for face registration")
                 return
@@ -89,28 +97,36 @@ class ControlPanel:
             
             # Get face with highest confidence
             best_face = max(detections, key=lambda x: x['confidence'])
+            print(f"Selected face confidence: {best_face['confidence']}")
             
-            # Check for embedding
+            # Check for embedding and features
             if best_face['embedding'] is None:
+                print("No embedding found in detection")
                 messagebox.showerror("Error", "Failed to extract face features")
                 return
+                
+            print("Face features present:", list(best_face.get('facial_features', {}).keys()))
             
             # Get person's name
             name = simpledialog.askstring("Register Face", "Enter person's name:")
             if not name:
                 return
             
-            # Create metadata
+            # Create metadata with facial features
             metadata = {
                 'gender': best_face['gender'],
-                'age': best_face['age']
+                'age': best_face['age'],
+                'facial_features': best_face.get('facial_features', {})
             }
+            print("Metadata prepared:", metadata)
             
             # Add to database
             if self.recognizer.add_face(name, best_face['embedding'], json.dumps(metadata)):
                 self.update_face_list()
+                print(f"Successfully registered face for {name}")
                 messagebox.showinfo("Success", f"Face registered for {name}")
             else:
+                print("Database insertion failed")
                 messagebox.showerror("Error", "Failed to register face")
                 
         except Exception as e:

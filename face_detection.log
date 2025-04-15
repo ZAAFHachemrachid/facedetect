@@ -1194,3 +1194,914 @@
 2025-04-15 19:38:37,224 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
 2025-04-15 19:38:37,225 - FaceDetection - WARNING - Error threshold reached for Face Detection
 2025-04-15 19:38:37,225 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:09,356 - FaceDetection - ERROR - InsightFace Detection: name 'time' is not defined
+2025-04-15 19:42:09,365 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:09,365 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:09,409 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:09,409 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:09,463 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:09,463 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:09,463 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:09,571 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:09,571 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:09,571 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,258 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,258 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,258 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,292 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,293 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,293 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,326 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,326 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,327 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,362 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,362 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,362 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,425 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,426 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,426 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,463 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,463 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,463 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,497 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,498 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,498 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,595 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,595 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,595 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,629 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,630 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,630 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,693 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,693 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,693 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,897 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,897 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,897 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,962 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,962 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:19,962 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:19,999 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:19,999 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,000 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,032 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,033 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,033 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,064 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,065 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,065 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,129 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,130 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,130 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,167 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,168 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,168 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,203 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,203 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,203 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,227 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,227 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,227 - FaceDetection - ERROR - Face Registration: invalid index to scalar variable.
+2025-04-15 19:42:20,244 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,245 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,245 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,297 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,297 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,297 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,333 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,334 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,334 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,467 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,467 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,467 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,704 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,704 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,704 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:20,735 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:20,735 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:20,735 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:22,846 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:22,846 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:22,846 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:22,882 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:22,883 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:22,883 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:22,948 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:22,948 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:22,948 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:22,982 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:22,983 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:22,983 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:23,016 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:23,016 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:23,016 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:23,150 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:23,151 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:23,151 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:42:27,072 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:42:27,072 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:42:27,072 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:43:55,477 - FaceDetection - ERROR - InsightFace Detection: name 'time' is not defined
+2025-04-15 19:44:10,513 - FaceDetection - ERROR - InsightFace Detection: name 'time' is not defined
+2025-04-15 19:44:18,870 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:18,870 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:18,909 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:18,909 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:18,970 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:18,970 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:18,970 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:19,039 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:19,039 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:19,040 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:19,202 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:19,202 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:19,203 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:19,406 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:19,406 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:19,406 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:35,870 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:35,870 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:35,871 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:36,471 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:36,471 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:36,471 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:36,512 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:36,512 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:36,512 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:36,550 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:36,551 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:36,551 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:41,156 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:41,156 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:41,157 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:47,773 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:47,773 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:47,773 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:48,732 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:48,732 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:48,732 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:59,501 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:59,501 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:59,501 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:59,539 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:59,539 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:59,539 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:59,603 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:59,603 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:59,603 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:59,636 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:59,636 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:59,637 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:59,694 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:59,694 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:59,694 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:59,738 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:59,738 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:59,739 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:59,776 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:59,777 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:59,777 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:44:59,811 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:44:59,811 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:44:59,811 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:01,446 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:01,446 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:01,446 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:01,849 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:01,849 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:01,850 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:01,880 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:01,880 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:01,880 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:01,917 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:01,917 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:01,917 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:02,017 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:02,018 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:02,018 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:02,151 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:02,151 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:02,151 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,246 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,246 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,246 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,314 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,314 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,314 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,356 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,356 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,357 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,474 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,474 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,474 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,509 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,509 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,509 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,544 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,544 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,544 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,616 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,617 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,617 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,646 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,646 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,646 - FaceDetection - ERROR - Face Registration: invalid index to scalar variable.
+2025-04-15 19:45:07,659 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,660 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,660 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,720 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,721 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,722 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,782 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,782 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,783 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,822 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,823 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,823 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,883 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,884 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,884 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,919 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,920 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,920 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,954 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,955 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,955 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:07,989 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:07,989 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:07,989 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,052 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,053 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,053 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,090 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,091 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,091 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,121 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,121 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,121 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,157 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,158 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,158 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,193 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,194 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,194 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,220 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,220 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,221 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,261 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,261 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,261 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,315 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,315 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,315 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,348 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,349 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,349 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,413 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,413 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,413 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,485 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,485 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,485 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,586 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,586 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,586 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:08,857 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:08,857 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:08,857 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:09,092 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:09,092 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:09,093 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:09,119 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:09,119 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:09,119 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:09,221 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:09,222 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:09,222 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:09,290 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:09,291 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:09,291 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:09,328 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:09,328 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:09,328 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,135 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,136 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,137 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,176 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,176 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,176 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,205 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,206 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,207 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,238 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,239 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,240 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,304 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,305 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,305 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,343 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,343 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,343 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,401 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,402 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,402 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,443 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,443 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,443 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:45:11,471 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:45:11,472 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:45:11,473 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:46:51,773 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 19:46:52,332 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:46:52,332 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:46:52,374 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:46:52,374 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:46:52,437 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:46:52,437 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:46:52,437 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:46:52,503 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:46:52,504 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:46:52,504 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:46:52,534 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:46:52,534 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:46:52,534 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:46:56,493 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:46:56,493 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:46:56,493 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:00,719 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:00,720 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:00,720 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:00,780 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:00,780 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:00,780 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:00,816 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:00,817 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:00,817 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:00,851 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:00,851 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:00,852 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:00,888 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:00,888 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:00,889 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:01,023 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:01,023 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:01,023 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:01,057 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:01,057 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:01,057 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:01,117 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:01,117 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:01,117 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:01,318 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:01,318 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:01,318 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:31,726 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:31,726 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:31,726 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:31,824 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:31,824 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:31,824 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:31,863 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:31,863 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:31,864 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:31,894 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:31,894 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:31,894 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:31,925 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:31,925 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:31,925 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:31,993 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:31,993 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:31,993 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:32,023 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:32,023 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:32,023 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:32,158 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:32,158 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:32,158 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:36,322 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:36,322 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:36,322 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:36,388 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:36,388 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:36,388 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:54,693 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:54,693 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:54,694 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:54,825 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:54,826 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:54,826 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:54,859 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:54,859 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:54,859 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:54,957 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:54,957 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:54,957 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:54,995 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:54,995 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:54,995 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:55,093 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:55,094 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:55,094 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:55,126 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:55,126 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:55,126 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:55,161 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:55,161 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:55,161 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:47:55,225 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:47:55,225 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:47:55,225 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:00,119 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:00,119 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:00,119 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:00,158 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:00,158 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:00,159 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:00,187 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:00,187 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:00,187 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:00,250 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:00,251 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:00,251 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:00,321 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:00,321 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:00,321 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:01,059 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:01,060 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:01,060 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:01,162 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:01,162 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:01,162 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:01,225 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:01,225 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:01,225 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:08,938 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:08,939 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:08,939 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:08,969 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:08,970 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:08,970 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:09,071 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:09,072 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:09,072 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:11,683 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:11,684 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:11,684 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:11,721 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:11,722 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:11,722 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:11,757 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:11,758 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:11,758 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:48:11,788 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:48:11,788 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:48:11,788 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:55,732 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 19:49:57,463 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,464 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,595 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,596 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,630 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,632 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,633 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,693 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,693 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,693 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,735 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,736 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,736 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,765 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,765 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,765 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,800 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,800 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,801 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,864 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,864 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,865 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,899 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,899 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,899 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,926 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,926 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,926 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:57,964 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:57,964 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:57,965 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,030 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,030 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,031 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,068 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,069 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,069 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,129 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,129 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,130 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,174 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,174 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,175 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,198 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,198 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,198 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,235 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,235 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,235 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,470 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,471 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,471 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,524 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,524 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,524 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,564 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,564 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,564 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,603 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,603 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,603 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:49:58,635 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:49:58,636 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:49:58,636 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:05,071 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:05,071 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:05,071 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:05,710 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:05,710 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:05,711 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,087 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,088 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,088 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,111 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,111 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,111 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,190 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,191 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,191 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,220 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,220 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,221 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,281 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,281 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,281 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,319 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,319 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,319 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,349 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,349 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,349 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,381 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,381 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,382 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,483 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,484 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,484 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,520 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,521 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,522 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,555 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,556 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,556 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,610 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,610 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,610 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,644 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,644 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,644 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,711 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,711 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,712 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,748 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,748 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,748 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,785 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,785 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,785 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:07,822 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:07,822 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:07,822 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:31,824 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:31,825 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:31,825 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:44,058 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:44,059 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:44,059 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:44,130 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:44,130 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:44,130 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:44,155 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:44,155 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:44,155 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:44,396 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:44,396 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:44,397 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:45,636 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:45,636 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:45,636 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:45,668 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:45,668 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:45,668 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:45,700 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:45,700 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:45,700 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:45,804 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:45,804 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:45,805 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:45,843 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:45,843 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:45,844 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,056 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,056 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,056 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,184 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,184 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,185 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,224 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,224 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,224 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,254 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,255 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,255 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,322 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,322 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,322 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,626 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,626 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,626 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,658 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,659 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,659 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,696 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,697 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,697 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,759 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,759 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,759 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,795 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,795 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,796 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,859 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,859 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,860 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,895 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,896 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,896 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,939 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,939 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,939 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:49,969 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:49,969 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:49,969 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,028 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,028 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,029 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,072 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,073 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,073 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,398 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,398 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,398 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,462 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,462 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,462 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,504 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,504 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,504 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,561 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,561 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,561 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,630 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,631 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,631 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,667 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,667 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,667 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,733 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,733 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,733 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:50,766 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:50,766 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:50,766 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:51,599 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:51,599 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:51,599 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:51,971 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:51,972 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:51,972 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:52,004 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:52,005 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:52,005 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:52,035 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:52,035 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:52,035 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:52,341 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:50:52,341 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:50:52,341 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:50:58,016 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 19:52:11,647 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 19:52:16,497 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:16,497 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:16,597 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:16,598 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:16,633 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:16,634 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:52:16,634 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:17,202 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:17,202 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:52:17,202 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:24,609 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:24,610 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:52:24,610 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:24,648 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:24,648 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:52:24,649 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:24,692 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:24,692 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:52:24,692 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:24,780 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:24,780 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:52:24,781 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:24,809 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:24,809 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:52:24,809 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:52:24,945 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:52:24,945 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:52:24,946 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:53:27,691 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 19:55:38,223 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 19:55:55,570 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:55:55,571 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:55:55,670 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:55:55,670 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:55:55,707 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:55:55,707 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:55:55,707 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:56:36,302 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:56:36,302 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:56:36,303 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:56:39,991 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:56:39,992 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:56:39,992 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:56:40,027 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:56:40,028 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:56:40,029 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:56:40,083 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:56:40,084 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:56:40,084 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:56:40,257 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:56:40,257 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:56:40,258 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:56:40,291 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:56:40,291 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:56:40,291 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:56:47,377 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 19:58:13,873 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 19:58:14,272 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:14,273 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:14,475 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:14,475 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:19,801 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:19,801 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:19,801 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:19,837 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:19,838 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:19,838 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,004 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,004 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,005 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,062 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,062 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,062 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,097 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,097 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,097 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,135 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,136 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,136 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,164 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,165 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,165 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,240 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,240 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,242 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,273 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,273 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,273 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,338 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,339 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,339 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:20,403 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:20,403 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:20,403 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:28,424 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:28,425 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:28,426 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:28,446 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:28,446 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:28,446 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:28,550 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:28,551 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:28,551 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:28,590 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:28,590 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:28,590 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:38,910 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:38,910 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:38,910 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:40,477 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:40,478 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:40,478 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:40,982 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:40,982 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:40,982 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:42,870 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:42,871 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:42,871 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:43,342 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:43,346 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:43,347 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:43,366 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:43,366 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:43,366 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:43,400 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:43,400 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:43,400 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:43,510 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:43,511 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:43,511 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:43,731 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:43,731 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:43,731 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:43,767 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:43,768 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:43,768 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:43,799 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:43,799 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:43,799 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,009 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,009 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,009 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,061 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,062 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,063 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,149 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,149 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,149 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,191 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,191 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,191 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,457 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,458 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,458 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,483 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,483 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,483 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,548 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,548 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,548 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,592 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,593 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,594 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,650 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,650 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,650 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,712 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,712 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,712 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,748 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,749 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,749 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,851 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,851 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,851 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:46,987 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:46,987 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:46,987 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,048 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,049 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,049 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,097 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,098 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,098 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,158 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,159 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,160 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,190 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,190 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,190 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,253 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,253 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,253 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,298 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,299 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,299 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,324 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,324 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,324 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,355 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,355 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,355 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:58:47,419 - FaceDetection - ERROR - Face Detection: invalid index to scalar variable.
+2025-04-15 19:58:47,419 - FaceDetection - WARNING - Error threshold reached for Face Detection
+2025-04-15 19:58:47,419 - FaceDetection - ERROR - Frame Processing: invalid index to scalar variable.
+2025-04-15 19:59:43,368 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2025-04-15 20:01:37,861 - FaceDetection - ERROR - InsightFace Detection: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'

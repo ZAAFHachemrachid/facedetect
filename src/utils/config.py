@@ -27,12 +27,12 @@ class Config:
         self.ip_camera_url = "http://192.168.1.100:8080/video"  # IP Webcam URL
         
         # Detection settings
-        self.detection_size = (320, 320)  # Size for face detection
+        self.detection_size = (640, 640)  # Size for face detection (increased)
         self.min_confidence = 0.6  # Minimum confidence for face recognition
-        self.detection_interval = 5  # Detection interval in frames
+        self.detection_interval = 3  # Detection interval in frames (reduced)
         
         # Video processing settings
-        self.processing_width = 800  # Width for processing frames
+        self.processing_width = 1280  # Width for processing frames (increased)
         self.min_face_size = 30  # Minimum face size in pixels
         self.max_face_size = 300  # Maximum face size in pixels
         self.enable_tracking = True  # Enable face tracking

@@ -6,6 +6,7 @@ import threading
 import time
 import queue
 import requests
+import numpy as np
 
 from ..utils.error_handler import ErrorHandler
 from ..utils.performance import PerformanceMonitor, Timer
@@ -13,21 +14,50 @@ from ..utils.config import config
 
 class VideoFrame:
     def preprocess_frame(self, frame):
-        """Optimize frame for processing while maintaining aspect ratio"""
-        # Convert to RGB if needed
-        if len(frame.shape) == 2:
-            frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2RGB)
-        elif frame.shape[2] == 4:
-            frame = frame[:, :, :3]
-        elif frame.shape[2] == 1:
-            frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2RGB)
+        """Preprocess frame for face detection
         
-        # Scale based on processing width while maintaining aspect ratio
-        height, width = frame.shape[:2]
-        scale = config.processing_width / width
-        small_frame = cv2.resize(frame, (0, 0), fx=scale, fy=scale)
-        
-        return small_frame, scale
+        Args:
+            frame: Input frame in BGR format
+            
+        Returns:
+            tuple: (preprocessed_frame, scale_factor)
+        """
+        try:
+            # Ensure frame is valid
+            if frame is None or frame.size == 0:
+                print("Invalid frame received in preprocessing")
+                return None, 1.0
+                
+            print(f"Original frame: shape={frame.shape}, dtype={frame.dtype}")
+            
+            # Get target size from config
+            target_width = config.processing_width
+            height, width = frame.shape[:2]
+            scale = target_width / width
+            target_height = int(height * scale)
+            
+            # Resize frame
+            small_frame = cv2.resize(frame, (target_width, target_height))
+            print(f"Resized frame: shape={small_frame.shape}, scale={scale}")
+            
+            # Ensure correct color format
+            if len(small_frame.shape) == 2:
+                print("Converting grayscale to BGR")
+                small_frame = cv2.cvtColor(small_frame, cv2.COLOR_GRAY2BGR)
+            elif small_frame.shape[2] == 4:
+                print("Converting RGBA to BGR")
+                small_frame = cv2.cvtColor(small_frame, cv2.COLOR_RGBA2BGR)
+                
+            # Ensure uint8 data type
+            if small_frame.dtype != np.uint8:
+                print(f"Converting {small_frame.dtype} to uint8")
+                small_frame = (small_frame * 255).astype(np.uint8)
+                
+            return small_frame, scale
+            
+        except Exception as e:
+            print(f"Error in frame preprocessing: {str(e)}")
+            return None, 1.0
         
     def __init__(self, parent, detector, recognizer, tracker, error_recovery):
         """Initialize video frame component"""
@@ -292,33 +322,60 @@ class VideoFrame:
             self.schedule_next_frame()
 
     def process_video(self):
-        """Process frames for face detection"""
+        """Process frames for face detection with tracking"""
         while self.running:
             try:
                 # Get frame from queue
                 frame, frame_time = self.frame_queue.get()
+                if frame is None:
+                    print("Received empty frame")
+                    continue
+                    
+                print(f"Processing frame: shape={frame.shape}, dtype={frame.dtype}")
                 display_frame = frame.copy()
                 
                 # Preprocess frame for detection
                 small_frame, scale = self.preprocess_frame(frame)
+                print(f"Preprocessed frame: shape={small_frame.shape}, scale={scale}")
                 
-                # Check if it's time for detection (based on frame count)
-                current_time = time.time()
-                should_detect = (current_time - self.last_detection_time) >= (config.detection_interval / 1000.0)
+                # Update existing trackers
+                tracked_detections = []
+                if config.enable_tracking:
+                    for track_id, (tracker, last_bbox) in list(self.active_trackers.items()):
+                        bbox, success = self.detector.update_tracking(small_frame, tracker, last_bbox)
+                        if success:
+                            # Scale bbox back to original size
+                            scaled_bbox = tuple(int(v/scale) for v in bbox)
+                            tracked_detections.append({
+                                'bbox': scaled_bbox,
+                                'tracking_id': track_id,
+                                'confidence': 0.8,  # Tracking confidence
+                                'facial_features': self.current_detections[track_id].get('facial_features', {}) if track_id < len(self.current_detections) else {}
+                            })
+                        else:
+                            del self.active_trackers[track_id]
+                
+                # Check if detection is needed
+                should_detect = (
+                    self.frame_count % config.detection_interval == 0 or  # Regular interval
+                    len(self.active_trackers) < len(self.current_detections) or  # Lost tracks
+                    not self.active_trackers  # No active trackers
+                )
                 
                 if should_detect:
-                    self.last_detection_time = current_time
+                    self.last_detection_time = time.time()
                     
-                    # Detect and recognize faces using preprocessed frame
+                    # Detect and recognize faces
+                    print("Running face detection...")
                     detections, used_insightface = self.detector.detect_faces(small_frame)
+                    print(f"Detection result: {len(detections)} faces, used_insightface: {used_insightface}")
                     
                     # Scale detections back to original size
                     if detections:
                         for detection in detections:
                             bbox = detection['bbox']
                             detection['bbox'] = tuple(int(v/scale) for v in bbox)
-                    
-                    if detections:
+                        
                         if used_insightface:
                             embeddings = self.detector.get_face_embeddings(small_frame, detections)
                             if embeddings:
@@ -328,13 +385,31 @@ class VideoFrame:
                                 names = ["Unknown"] * len(detections)
                         else:
                             names = ["Unknown"] * len(detections)
-                            
-                        # Update current detections
+                        
+                        # Initialize/update trackers
+                        if config.enable_tracking:
+                            self.active_trackers.clear()  # Reset trackers
+                            for i, detection in enumerate(detections):
+                                tracker = self.detector.init_tracking(small_frame, detection)
+                                if tracker:
+                                    self.active_trackers[i] = (tracker, detection['bbox'])
+                        
+                        # Update current detections and names
                         self.current_detections = detections
                         self.current_names = names
                 
-                # Draw detections
+                # Use tracked detections if available, otherwise use last known detections
+                display_detections = tracked_detections if tracked_detections else self.current_detections
+                
+                # Draw detections and tracking info
                 if display_detections:
+                    # Draw tracking boxes in yellow for tracked faces
+                    if config.enable_tracking and tracked_detections:
+                        for detection in tracked_detections:
+                            x, y, w, h = detection['bbox']
+                            cv2.rectangle(display_frame, (x, y), (x+w, y+h), (0, 255, 255), 2)
+                    
+                    # Draw full detection info
                     display_frame = self.detector.draw_detections(
                         display_frame,
                         display_detections,
@@ -359,8 +434,9 @@ class VideoFrame:
     def update_display(self, frame):
         """Update video display with new frame"""
         try:
-            # Convert frame to RGB for PIL
+            # Convert BGR to RGB for PIL
             frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            # print(f"Display frame shape: {frame_rgb.shape}, dtype: {frame_rgb.dtype}")
             
             # Convert to PIL image
             pil_image = Image.fromarray(frame_rgb)
